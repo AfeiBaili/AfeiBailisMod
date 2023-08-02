@@ -44,10 +44,14 @@
     "block.afeibailismod.cerulean_planks": "玄蓝木板",
     "block.afeibailismod.cerulean_leaves": "玄蓝树叶",
     "block.afeibailismod.cerulean_sapling": "玄蓝树苗",
+
     "block.afeibailismod.sapphire_block": "霜蓝宝石块",
     "block.afeibailismod.sapphire_ore": "霜蓝宝石矿石",
+
     "block.afeibailismod.ruby_block": "炙红宝石块",
     "block.afeibailismod.ruby_ore": "炙红宝石矿",
+
+    "block.afeibailismod.violet_gemstone_block": "夜紫宝石块",
 
     "itemgroup.afeibailismod.items": "物品",
     "itemgroup.afeibailismod.block": "方块",
