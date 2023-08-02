@@ -55,7 +55,7 @@ public class ModBlocks {
 
     //霜蓝宝石
     public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.AFEIBAILISMOD_BLOCK);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool()), ModItemGroup.AFEIBAILISMOD_BLOCK);
     public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
                     UniformIntProvider.create(10, 100)), ModItemGroup.AFEIBAILISMOD_BLOCK);
@@ -66,6 +66,9 @@ public class ModBlocks {
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool(),
                     UniformIntProvider.create(10, 100)), ModItemGroup.AFEIBAILISMOD_BLOCK);
+    //夜紫宝石
+    public static final Block VIOLET_GEMSTONE_BLOCK = registerBlock("violet_gemstone_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool()), ModItemGroup.AFEIBAILISMOD_BLOCK);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

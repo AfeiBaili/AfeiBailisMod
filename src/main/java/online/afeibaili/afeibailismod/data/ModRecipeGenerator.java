@@ -22,10 +22,11 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.DECORATIONS, ModItems.SAPPHIRE, RecipeCategory.BUILDING_BLOCKS,
-                ModBlocks.SAPPHIRE_BLOCK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.DECORATIONS, ModItems.RUBY, RecipeCategory.BUILDING_BLOCKS,
-                ModBlocks.RUBY_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.DECORATIONS, ModItems.SAPPHIRE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.DECORATIONS, ModItems.RUBY, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.DECORATIONS, ModItems.VIOLET_GEMSTONE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.VIOLET_GEMSTONE_BLOCK);
+
+
         offerPlanksRecipe(exporter, ModBlocks.CERULEAN_PLANKS, ModTags.Items.CERULEAN_WOODS, 4);
         offerPlanksRecipe(exporter, ModBlocks.WITHERED_PLANKS, ModTags.Items.WITHERED_WOODS, 4);
 

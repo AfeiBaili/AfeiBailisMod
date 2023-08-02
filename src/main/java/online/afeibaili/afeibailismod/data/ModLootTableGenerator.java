@@ -21,6 +21,7 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CERULEAN_PLANKS);
         addDrop(ModBlocks.SAPPHIRE_BLOCK);
         addDrop(ModBlocks.RUBY_BLOCK);
+        addDrop(ModBlocks.VIOLET_GEMSTONE_BLOCK);
         addDrop(ModBlocks.WITHERED_LOG);
         addDrop(ModBlocks.WITHERED_WOOD);
         addDrop(ModBlocks.STRIPPED_WITHERED_LOG);

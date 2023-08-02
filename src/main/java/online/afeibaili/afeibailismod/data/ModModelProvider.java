@@ -36,6 +36,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RUBY_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DEEPSLATE_RUBY_ORE);
 
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VIOLET_GEMSTONE_BLOCK);
+
 
 
 
