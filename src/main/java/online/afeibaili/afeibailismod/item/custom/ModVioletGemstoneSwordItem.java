@@ -28,7 +28,7 @@ public class ModVioletGemstoneSwordItem extends SwordItem {
         if (attacker instanceof PlayerEntity) {
             ((PlayerEntity) attacker).addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 40, 1));
         }
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 20, 0), attacker);
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 40, 0), attacker);
         return super.postHit(stack, target, attacker);
     }
 
