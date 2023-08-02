@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "afeibailismod:violet_gemstone"
+    },
+    "S": {
+      "item": "afeibailismod:cerulean_stick"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "afeibailismod:violet_gemstone_pickaxe"
+  },
+  "show_notification": true
+}
