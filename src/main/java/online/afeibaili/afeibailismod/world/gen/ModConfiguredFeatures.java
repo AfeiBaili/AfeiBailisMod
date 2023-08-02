@@ -40,8 +40,8 @@ public class ModConfiguredFeatures {
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
                 new TwoLayersFeatureSize(1, 2, 2)).build());
 
-        register(context, SAPPHIRE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldSapphireOres, 5));
-        register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldSapphireOres, 5));
+        register(context, SAPPHIRE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldSapphireOres, 2));
+        register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldSapphireOres, 2));
     }
 
 

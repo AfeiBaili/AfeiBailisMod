@@ -28,11 +28,11 @@ public class ModPlacedFeatures {
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1, 0.000000001f, 0), ModBlocks.CERULEAN_SAPLING));
 
         register(context, SAPPHIRE_ORE_PLACED_KEY,configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SAPPHIRE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(4,
+                ModOrePlacement.modifiersWithCount(2,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(120),YOffset.fixed(319))));
         register(context, RUBY_ORE_PLACED_KEY,configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.RUBY_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(4,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-63),YOffset.fixed(-20))));
+                ModOrePlacement.modifiersWithCount(2,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-63),YOffset.fixed(-55))));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
