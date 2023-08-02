@@ -9,7 +9,7 @@ import online.afeibaili.afeibailismod.world.ModPlacedFeatures;
 //树生成地方
 public class ModTreeGeneration {
     public static void generateTrees() {
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.WINDSWEPT_HILLS),
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.WINDSWEPT_HILLS,BiomeKeys.WINDSWEPT_FOREST,BiomeKeys.WINDSWEPT_GRAVELLY_HILLS),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CERULEAN_PLACED_KEY);
     }
 }
