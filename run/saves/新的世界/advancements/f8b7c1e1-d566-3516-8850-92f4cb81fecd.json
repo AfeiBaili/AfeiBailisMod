@@ -1,0 +1,45 @@
+{
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2023-04-27 21:36:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-04-27 21:36:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-04-27 21:36:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-04-27 21:37:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:creeper": "2023-04-27 21:37:18 +0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2023-04-27 21:37:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-04-27 21:36:11 +0800"
+    },
+    "done": false
+  },
+  "DataVersion": 3337
+}

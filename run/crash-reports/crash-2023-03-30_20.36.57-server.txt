@@ -1,0 +1,190 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 2023-03-30 20:36:57
+Description: Exception generating new chunk
+
+java.lang.IllegalStateException: Feature order cycle found, involved sources: [Reference{ResourceKey[minecraft:worldgen/biome / minecraft:windswept_hills]=net.minecraft.world.biome.Biome@15273b07}]
+	at net.minecraft.world.gen.feature.util.PlacedFeatureIndexer.collectIndexedFeatures(PlacedFeatureIndexer.java:100)
+	at net.minecraft.world.gen.chunk.ChunkGenerator.method_44215(ChunkGenerator.java:102)
+	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+	at net.minecraft.world.gen.chunk.ChunkGenerator.generateFeatures(ChunkGenerator.java:288)
+	at net.minecraft.world.chunk.ChunkStatus.method_20613(ChunkStatus.java:146)
+	at net.minecraft.world.chunk.ChunkStatus.runGenerationTask(ChunkStatus.java:293)
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.method_17225(ThreadedAnvilChunkStorage.java:692)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.method_17224(ThreadedAnvilChunkStorage.java:686)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.server.world.ChunkTaskPrioritySystem.method_17634(ChunkTaskPrioritySystem.java:62)
+	at net.minecraft.util.thread.TaskExecutor.runNext(TaskExecutor.java:91)
+	at net.minecraft.util.thread.TaskExecutor.runWhile(TaskExecutor.java:146)
+	at net.minecraft.util.thread.TaskExecutor.run(TaskExecutor.java:102)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.world.gen.feature.util.PlacedFeatureIndexer.collectIndexedFeatures(PlacedFeatureIndexer.java:100)
+	at net.minecraft.world.gen.chunk.ChunkGenerator.method_44215(ChunkGenerator.java:102)
+	at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+	at net.minecraft.world.gen.chunk.ChunkGenerator.generateFeatures(ChunkGenerator.java:288)
+	at net.minecraft.world.chunk.ChunkStatus.method_20613(ChunkStatus.java:146)
+	at net.minecraft.world.chunk.ChunkStatus.runGenerationTask(ChunkStatus.java:293)
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.method_17225(ThreadedAnvilChunkStorage.java:692)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.method_17224(ThreadedAnvilChunkStorage.java:686)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.server.world.ChunkTaskPrioritySystem.method_17634(ChunkTaskPrioritySystem.java:62)
+	at net.minecraft.util.thread.TaskExecutor.runNext(TaskExecutor.java:91)
+	at net.minecraft.util.thread.TaskExecutor.runWhile(TaskExecutor.java:146)
+	at net.minecraft.util.thread.TaskExecutor.run(TaskExecutor.java:102)
+
+-- Chunk to be generated --
+Details:
+	Location: -4,1
+	Position hash: 8589934588
+	Generator: net.minecraft.world.gen.chunk.NoiseChunkGenerator@21fdb914
+Stacktrace:
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.method_17225(ThreadedAnvilChunkStorage.java:692)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.server.world.ThreadedAnvilChunkStorage.method_17224(ThreadedAnvilChunkStorage.java:686)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.server.world.ChunkTaskPrioritySystem.method_17634(ChunkTaskPrioritySystem.java:62)
+	at net.minecraft.util.thread.TaskExecutor.runNext(TaskExecutor.java:91)
+	at net.minecraft.util.thread.TaskExecutor.runWhile(TaskExecutor.java:146)
+	at net.minecraft.util.thread.TaskExecutor.run(TaskExecutor.java:102)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+-- Affected level --
+Details:
+	All players: 0 total; []
+	Chunk stats: 625
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-40,64,40), Section: (at 8,0,8 in -3,4,2; chunk contains blocks -48,-64,32 to -33,319,47), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Level time: 0 game time, 0 day time
+	Level name: 新的世界
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Known server brands: fabric
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.createWorlds(MinecraftServer.java:377)
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:325)
+	at net.minecraft.server.integrated.IntegratedServer.setupServer(IntegratedServer.java:69)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:650)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:266)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.4
+	Minecraft Version ID: 1.19.4
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.4.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 469784976 bytes (448 MiB) / 1084227584 bytes (1034 MiB) up to 3988783104 bytes (3804 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 5800H with Radeon Graphics         
+	Identifier: AuthenticAMD Family 25 Model 80 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.19
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x1638
+	Graphics card #0 versionInfo: DriverVersion=30.0.14052.9003
+	Graphics card #1 name: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x25e0
+	Graphics card #1 versionInfo: DriverVersion=31.0.15.2824
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 27500.06
+	Virtual memory used (MB): 19078.48
+	Swap memory total (MB): 12288.00
+	Swap memory used (MB): 701.65
+	JVM Flags: 0 total; 
+	Fabric Mods: 
+		afeibailismod: AfeiBailisMod 1.0-SNAPSHOT
+		customportalapi: Custom Portal Api 0.0.1-beta62-1.19
+		disable_custom_worlds_advice: Disable Custom Worlds Advice 4.0
+		fabric-api: Fabric API 0.76.0+1.19.4
+		fabric-api-base: Fabric API Base 0.4.23+9ff28bcef4
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.24+49abcf7ef4
+		fabric-biome-api-v1: Fabric Biome API (v1) 13.0.6+348a9c64f4
+		fabric-block-api-v1: Fabric Block API (v1) 1.0.5+e022e5d1f4
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.33+c2e6f674f4
+		fabric-client-tags-api-v1: Fabric Client Tags 1.0.14+1134c5b8f4
+		fabric-command-api-v2: Fabric Command API (v2) 2.2.4+ae0966baf4
+		fabric-content-registries-v0: Fabric Content Registries (v0) 3.5.7+ae0966baf4
+		fabric-convention-tags-v1: Fabric Convention Tags 1.4.0+9a7c5daaf4
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.14+aeb40ebef4
+		fabric-data-generation-api-v1: Fabric Data Generation API (v1) 11.3.5+5da15ca1f4
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.44+7f87f8faf4
+		fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.12+e45f7c65f4
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.42+a1ccd7bff4
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.32+a1ccd7bff4
+		fabric-gametest-api-v1: Fabric Game Test API (v1) 1.2.2+ae0966baf4
+		fabric-item-api-v1: Fabric Item API (v1) 2.1.16+09a3510cf4
+		fabric-item-group-api-v1: Fabric Item Group API (v1) 3.0.3+043f9acff4
+		fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.32+c477957ef4
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.14+5da15ca1f4
+		fabric-loot-api-v2: Fabric Loot API (v2) 1.1.25+75e98211f4
+		fabric-message-api-v1: Fabric Message API (v1) 5.1.0+1ee8be40f4
+		fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.37+49abcf7ef4
+		fabric-models-v0: Fabric Models (v0) 0.3.29+11ba9c3bf4
+		fabric-networking-api-v1: Fabric Networking API (v1) 1.2.22+ca5f59aaf4
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 7.0.1+63b515f4f4
+		fabric-particles-v1: Fabric Particles (v1) 1.0.22+f1e4495bf4
+		fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.6+a1ccd7bff4
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.1.2+a383ab97f4
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 2.2.4+81e8c576f4
+		fabric-renderer-indigo: Fabric Renderer - Indigo 1.1.0+81e8c576f4
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.27+afca2f3ef4
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.20+f1e4495bf4
+		fabric-rendering-v1: Fabric Rendering (v1) 2.1.0+8f878217f4
+		fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.0+e6c7d4eef4
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.0+938a1d56f4
+		fabric-screen-api-v1: Fabric Screen API (v1) 1.0.44+8c25edb4f4
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.18+5da15ca1f4
+		fabric-sound-api-v1: Fabric Sound API (v1) 1.0.8+75e98211f4
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 3.0.1+9003cbe9f4
+		fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 3.0.2+63b515f4f4
+		fabricloader: Fabric Loader 0.14.18
+		java: Java HotSpot(TM) 64-Bit Server VM 17
+		minecraft: Minecraft 1.19.4
+	Server Running: true
+	Player Count: 0 / 8; []
+	Data Packs: vanilla, fabric
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'
+	Launched Version: Fabric

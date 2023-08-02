@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "afeibailismod:sapphire"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "afeibailismod:sapphire_block"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:diamond_block"
+    },
+    "S": {
+      "item": "minecraft:apple"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ASA",
+    "AAA"
+  ],
+  "result": {
+    "item": "afeibailismod:enchanted_diamond_apple"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,77 @@
+{
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2023-05-29 19:10:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-05-29 19:10:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-05-29 19:10:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-05-29 19:10:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2023-05-29 19:10:52 +0800",
+      "minecraft:spider": "2023-05-29 19:10:45 +0800",
+      "minecraft:creeper": "2023-05-29 19:11:07 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2023-05-29 19:10:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2023-05-29 19:10:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-05-29 19:10:13 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2023-05-29 19:11:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2023-05-29 19:11:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-05-29 19:10:42 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/building_blocks/sapphire_block": {
+    "criteria": {
+      "has_sapphire": "2023-05-29 19:10:26 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
+}

@@ -1,0 +1,220 @@
+[02:40:47] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.19
+[02:40:47] [main/INFO] (FabricLoader) Loading 52 mods:
+	- afeibailismod 1.0-SNAPSHOT
+	- appleskin 2.4.3+mc1.19.4
+	   \-- cloth-config 10.0.95
+	        \-- cloth-basic-math 0.6.1
+	- customportalapi 0.0.1-beta62-1.19
+	- disable_custom_worlds_advice 4.0
+	- fabric-api 0.76.0+1.19.4
+	- fabric-api-base 0.4.23+9ff28bcef4
+	- fabric-api-lookup-api-v1 1.6.24+49abcf7ef4
+	- fabric-biome-api-v1 13.0.6+348a9c64f4
+	- fabric-block-api-v1 1.0.5+e022e5d1f4
+	- fabric-blockrenderlayer-v1 1.1.33+c2e6f674f4
+	- fabric-client-tags-api-v1 1.0.14+1134c5b8f4
+	- fabric-command-api-v2 2.2.4+ae0966baf4
+	- fabric-content-registries-v0 3.5.7+ae0966baf4
+	- fabric-convention-tags-v1 1.4.0+9a7c5daaf4
+	- fabric-crash-report-info-v1 0.2.14+aeb40ebef4
+	- fabric-data-generation-api-v1 11.3.5+5da15ca1f4
+	- fabric-dimensions-v1 2.1.44+7f87f8faf4
+	- fabric-entity-events-v1 1.5.12+e45f7c65f4
+	- fabric-events-interaction-v0 0.4.42+a1ccd7bff4
+	- fabric-game-rule-api-v1 1.0.32+a1ccd7bff4
+	- fabric-gametest-api-v1 1.2.2+ae0966baf4
+	- fabric-item-api-v1 2.1.16+09a3510cf4
+	- fabric-item-group-api-v1 3.0.3+043f9acff4
+	- fabric-key-binding-api-v1 1.0.32+c477957ef4
+	- fabric-lifecycle-events-v1 2.2.14+5da15ca1f4
+	- fabric-loot-api-v2 1.1.25+75e98211f4
+	- fabric-message-api-v1 5.1.0+1ee8be40f4
+	- fabric-mining-level-api-v1 2.1.37+49abcf7ef4
+	- fabric-models-v0 0.3.29+11ba9c3bf4
+	- fabric-networking-api-v1 1.2.22+ca5f59aaf4
+	- fabric-object-builder-api-v1 7.0.1+63b515f4f4
+	- fabric-particles-v1 1.0.22+f1e4495bf4
+	- fabric-recipe-api-v1 1.0.6+a1ccd7bff4
+	- fabric-registry-sync-v0 2.1.2+a383ab97f4
+	- fabric-renderer-api-v1 2.2.4+81e8c576f4
+	- fabric-renderer-indigo 1.1.0+81e8c576f4
+	- fabric-rendering-data-attachment-v1 0.3.27+afca2f3ef4
+	- fabric-rendering-fluids-v1 3.0.20+f1e4495bf4
+	- fabric-rendering-v1 2.1.0+8f878217f4
+	- fabric-resource-conditions-api-v1 2.3.0+e6c7d4eef4
+	- fabric-resource-loader-v0 0.11.0+938a1d56f4
+	- fabric-screen-api-v1 1.0.44+8c25edb4f4
+	- fabric-screen-handler-api-v1 1.3.18+5da15ca1f4
+	- fabric-sound-api-v1 1.0.8+75e98211f4
+	- fabric-transfer-api-v1 3.0.1+9003cbe9f4
+	- fabric-transitive-access-wideners-v1 3.0.2+63b515f4f4
+	- fabricloader 0.14.19
+	- java 17
+	- jei 13.1.0.11
+	- minecraft 1.19.4
+[02:40:52] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/AfeiN/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[02:40:52] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[02:40:52] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[02:40:52] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[02:41:01] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 150 milliseconds
+[02:41:05] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:41:06] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:161) ~[authlib-3.18.38.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:732) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:440) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:198) ~[minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.18.38.jar:?]
+	... 9 more
+[02:41:06] [Render thread/INFO] (Minecraft) Setting user: Player501
+[02:41:06] [Render thread/INFO] (PluginCaller) Sending ConfigManager...
+[02:41:06] [Render thread/INFO] (PluginCaller) Sending ConfigManager took 7.921 ms
+[02:41:06] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[02:41:07] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[02:41:09] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, Fabric Mods (Fabric Key Binding API (v1), Fabric Client Tags, Fabric Transitive Access Wideners (v1), Just Enough Items, Fabric Lifecycle Events (v1), Fabric BlockRenderLayer Registration (v1), Fabric Rendering Data Attachment (v1), Fabric Crash Report Info (v1), Fabric Entity Events (v1), Fabric Resource Conditions API (v1), Fabric Biome API (v1), Fabric Item Group API (v1), Fabric Renderer - Indigo, Fabric Rendering Fluids (v1), Cloth Config v9, Fabric Item API (v1), Fabric Game Test API (v1), Fabric API Base, Fabric Dimensions API (v1), Fabric Renderer API (v1), Fabric Mining Level API (v1), Fabric API, Custom Portal Api, Fabric Rendering (v1), Fabric Sound API (v1), Fabric Events Interaction (v0), Fabric Transfer API (v1), Fabric Networking API (v1), Fabric Registry Sync (v0), Fabric Object Builder API (v1), Fabric Resource Loader (v0), Disable Custom Worlds Advice, Fabric Models (v0), Fabric Message API (v1), AfeiBailisMod, Fabric Data Generation API (v1), Fabric Block API (v1), Fabric Screen Handler API (v1), Fabric Recipe API (v1), Fabric Screen API (v1), Fabric API Lookup API (v1), Fabric Loader, Fabric Loot API (v2), Fabric Content Registries (v0), Fabric Particles (v1), Fabric Game Rule API (v1), Fabric Command API (v2), Fabric Convention Tags, AppleSkin)
+[02:41:09] [Worker-Main-4/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack fabric:afeibailismod: afeibailismod:textures/item/下届合金 红宝石 打火石.png, ignoring
+[02:41:10] [Worker-Main-6/WARN] (Minecraft) Texture afeibailismod:item/smelly_cat with size 30x30 limits mip level from 4 to 1
+[02:41:10] [Worker-Main-6/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
+[02:41:10] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[02:41:11] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brushing
+[02:41:11] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brush_sand_completed
+[02:41:11] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[02:41:11] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[02:41:11] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:music.overworld.cherry_grove
+[02:41:12] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[02:41:12] [Render thread/INFO] (Minecraft) Sound engine started
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 1024x512x1 minecraft:textures/atlas/blocks.png-atlas
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[02:41:12] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[02:41:12] [Render thread/INFO] (Minecraft) Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[02:43:02] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[02:43:03] [Render thread/INFO] (Minecraft) Loaded 1205 advancements
+[02:43:03] [Render thread/INFO] (ClientLifecycleHandler) Stopping JEI
+[02:43:03] [Render thread/INFO] (JeiStarter) Stopping JEI
+[02:43:03] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable...
+[02:43:03] [Render thread/INFO] (FabricGuiPlugin) Stopping JEI GUI
+[02:43:03] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable took 669.2 μs
+[02:43:03] [Render thread/INFO] (BiomeModificationImpl) Applied 3 biome modifications to 2 of 63 new biomes in 25.99 ms
+[02:43:03] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.4
+[02:43:03] [Server thread/INFO] (Minecraft) Generating keypair
+[02:43:04] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[02:43:06] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[02:43:06] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[02:43:06] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[02:43:06] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[02:43:06] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[02:43:07] [Render thread/INFO] (Minecraft) 准备生成区域中：9%
+[02:43:07] [Render thread/INFO] (Minecraft) 准备生成区域中：94%
+[02:43:07] [Render thread/INFO] (Minecraft) Time elapsed: 3228 ms
+[02:43:08] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[02:43:08] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[02:43:09] [Server thread/INFO] (Minecraft) Player501[local:E:2faca0b3] logged in with entity id 50 at (38.86324888293021, -60.0, -278.8584669212687)
+[02:43:10] [Server thread/INFO] (Minecraft) Player501加入了游戏
+[02:43:10] [Render thread/INFO] (LoggedTimer) Starting JEI...
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering item subtypes...
+[02:43:10] [Render thread/INFO] (PluginCallerTimerRunnable) Registering item subtypes: jei:minecraft took 12.46 milliseconds
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering item subtypes took 13.69 ms
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering fluid subtypes...
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering fluid subtypes took 8.982 ms
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering ingredients...
+[02:43:10] [Render thread/INFO] (PluginCallerTimerRunnable) Registering ingredients: jei:minecraft took 113.4 milliseconds
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering ingredients took 114.5 ms
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering categories...
+[02:43:10] [Render thread/INFO] (PluginCallerTimerRunnable) Registering categories: jei:minecraft took 83.23 milliseconds
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering categories took 88.19 ms
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions...
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions took 11.01 ms
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering recipe catalysts...
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering recipe catalysts took 4.737 ms
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering advanced plugins...
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering advanced plugins took 527.7 μs
+[02:43:10] [Render thread/INFO] (LoggedTimer) Building recipe registry...
+[02:43:10] [Render thread/INFO] (LoggedTimer) Building recipe registry took 43.65 ms
+[02:43:10] [Render thread/INFO] (PluginCaller) Registering recipes...
+[02:43:11] [Render thread/INFO] (PluginCallerTimerRunnable) Registering recipes: jei:minecraft took 337.2 milliseconds
+[02:43:11] [Render thread/INFO] (PluginCaller) Registering recipes took 338.0 ms
+[02:43:11] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers...
+[02:43:11] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers took 10.08 ms
+[02:43:11] [Render thread/INFO] (LoggedTimer) Building runtime...
+[02:43:11] [Render thread/INFO] (PluginCaller) Registering gui handlers...
+[02:43:11] [Render thread/INFO] (PluginCallerTimerRunnable) Registering gui handlers: jei:minecraft took 34.93 milliseconds
+[02:43:11] [Render thread/INFO] (PluginCallerTimerRunnable) Registering gui handlers: jei:gui took 24.45 milliseconds
+[02:43:11] [Render thread/INFO] (PluginCaller) Registering gui handlers took 60.32 ms
+[02:43:11] [Render thread/INFO] (PluginCaller) Registering Runtime...
+[02:43:11] [Render thread/INFO] (JeiGuiStarter) Starting JEI GUI
+[02:43:11] [Render thread/INFO] (LoggedTimer) Building ingredient list...
+[02:43:11] [Render thread/INFO] (LoggedTimer) Building ingredient list took 8.286 ms
+[02:43:11] [Render thread/INFO] (LoggedTimer) Building ingredient filter...
+[02:43:11] [Render thread/INFO] (IngredientFilter) Adding 1374 ingredients
+[02:43:11] [Render thread/INFO] (IngredientFilter) Added 1374 ingredients
+[02:43:11] [Render thread/INFO] (LoggedTimer) Building ingredient filter took 278.8 ms
+[02:43:11] [Render thread/INFO] (PluginCallerTimerRunnable) Registering Runtime: jei:fabric_gui took 412.5 milliseconds
+[02:43:11] [Render thread/INFO] (PluginCaller) Registering Runtime took 413.4 ms
+[02:43:11] [Render thread/INFO] (LoggedTimer) Building runtime took 523.5 ms
+[02:43:11] [Render thread/INFO] (PluginCaller) Sending Runtime...
+[02:43:11] [Render thread/INFO] (PluginCaller) Sending Runtime took 417.8 μs
+[02:43:11] [Render thread/INFO] (LoggedTimer) Starting JEI took 1.377 s
+[02:43:11] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[02:43:34] [Server thread/INFO] (Minecraft) Villager VillagerEntity['村民'/124, l='ServerLevel[新的世界]', x=25.06, y=-60.00, z=-272.61] died, message: '村民被Player501杀死了'
+[02:43:34] [Render thread/INFO] (Minecraft) Villager VillagerEntity['村民'/124, l='ClientLevel', x=26.15, y=-60.00, z=-272.97] died, message: '村民死了'
+[02:43:34] [Render thread/INFO] (Minecraft) Loaded 25 advancements
+[02:43:39] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[02:43:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[02:43:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/afeibailismod:eternal_night
+[02:43:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[02:43:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/afeibailismod:extreme_cold
+[02:43:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[02:52:24] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[02:52:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[02:52:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/afeibailismod:eternal_night
+[02:52:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[02:52:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/afeibailismod:extreme_cold
+[02:52:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[02:52:25] [Render thread/INFO] (ClientLifecycleHandler) Stopping JEI
+[02:52:25] [Render thread/INFO] (JeiStarter) Stopping JEI
+[02:52:25] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable...
+[02:52:25] [Render thread/INFO] (FabricGuiPlugin) Stopping JEI GUI
+[02:52:25] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable took 442.8 μs
+[02:52:25] [Server thread/INFO] (Minecraft) Player501 lost connection: 连接中断
+[02:52:25] [Server thread/INFO] (Minecraft) Player501退出了游戏
+[02:52:25] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[02:52:25] [Server thread/INFO] (Minecraft) Stopping server
+[02:52:25] [Server thread/INFO] (Minecraft) Saving players
+[02:52:25] [Server thread/INFO] (Minecraft) Saving worlds
+[02:52:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[02:52:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/afeibailismod:eternal_night
+[02:52:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[02:52:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/afeibailismod:extreme_cold
+[02:52:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[02:52:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (新的世界): All chunks are saved
+[02:52:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (eternal_night): All chunks are saved
+[02:52:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:52:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (extreme_cold): All chunks are saved
+[02:52:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:52:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[02:52:27] [Render thread/INFO] (Minecraft) Stopping!
+[02:52:27] [Render thread/INFO] (ClientLifecycleHandler) Stopping JEI
+[02:52:27] [Render thread/INFO] (JeiStarter) Stopping JEI
+[02:52:27] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable...
+[02:52:27] [Render thread/INFO] (FabricGuiPlugin) Stopping JEI GUI
+[02:52:27] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable took 454.0 μs

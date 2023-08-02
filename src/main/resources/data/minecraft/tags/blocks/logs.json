@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "afeibailismod:cerulean_log",
+    "afeibailismod:cerulean_wood",
+    "afeibailismod:stripped_cerulean_log",
+    "afeibailismod:stripped_cerulean_wood",
+    "afeibailismod:withered_log",
+    "afeibailismod:withered_wood",
+    "afeibailismod:stripped_withered_log",
+    "afeibailismod:stripped_withered_wood"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "item.afeibailismod.diamond_apple": "Diamond Apple",
+  "item.afeibailismod.enchanted_diamond_apple": "Enchanted Diamond Apple",
+  "item.afeibailismod.cerulean_stick": "Cerulean Stick",
+  "item.afeibailismod.sapphire": "Sapphire",
+  "item.afeibailismod.ruby": "Ruby",
+  "item.afeibailismod.violet_gemstone": "Violet Gemstone",
+
+  "item.afeibailismod.violet_gemstone_sword": "Violet Gemstone Sword",
+
+  "item.afeibailismod.ocean_dream": "Ocean Dream",
+  "item.afeibailismod.inferno_dragon": "Inferno Dragon",
+  "item.afeibailismod.age_of_divine_farmers": "Age Of Divine Farmers",
+  "item.afeibailismod.shadowed_shovel_blade": "Shadowed Shovel Blade",
+  "item.afeibailismod.qingyun_sharp_pickaxe": "Qingyun Sharp Pickaxe",
+
+  "item.afeibailismod.ruby_sword": "Ruby Sword",
+  "item.afeibailismod.ruby_axe": "Ruby Axe",
+  "item.afeibailismod.ruby_shove": "Ruby Shove",
+  "item.afeibailismod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.afeibailismod.ruby_hoe": "Ruby Hoe",
+
+  "item.afeibailismod.sapphire_sword": "Sapphire Sword",
+  "item.afeibailismod.sapphire_axe": "Sapphire Axe",
+  "item.afeibailismod.sapphire_shove": "Sapphire Shove",
+  "item.afeibailismod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.afeibailismod.sapphire_hoe": "Sapphire Hoe",
+  "item.afeibailismod.sapphire_stick": "Cerulean Stick",
+  "item.afeibailismod.smelly_cat": "Smelly Cat",
+
+  "block.afeibailismod.withered_log": "Withered Log",
+  "block.afeibailismod.withered_wood": "Withered Wood",
+  "block.afeibailismod.stripped_withered_log": "Stripped Withered Log",
+  "block.afeibailismod.stripped_withered_wood": "Stripped Withered Wood",
+  "block.afeibailismod.withered_planks": "Withered Planks",
+  "block.afeibailismod.cerulean_log": "Cerulean Log",
+  "block.afeibailismod.cerulean_wood": "Cerulean Wood",
+  "block.afeibailismod.stripped_cerulean_log": "Stripped Cerulean Log",
+  "block.afeibailismod.stripped_cerulean_wood": "Stripped Cerulean Wood",
+  "block.afeibailismod.cerulean_planks": "Cerulean Planks",
+  "block.afeibailismod.cerulean_leaves": "Cerulean Leaves",
+  "block.afeibailismod.cerulean_sapling": "Cerulean Sapling",
+
+  "block.afeibailismod.sapphire_block": "Sapphire Block",
+  "block.afeibailismod.sapphire_ore": "Sapphire Ore",
+
+  "block.afeibailismod.ruby_block": "Ruby Block",
+  "block.afeibailismod.ruby_ore": "Ruby Ore",
+
+  "itemgroup.afeibailismod.items": "Item",
+  "itemgroup.afeibailismod.block": "Block",
+  "itemgroup.afeibailismod.combat": "Combat",
+  "itemgroup.afeibailismod.tools": "Tools"
+
+}

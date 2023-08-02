@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "afeibailismod:block/withered_log_top",
+    "side": "afeibailismod:block/withered_log"
+  }
+}

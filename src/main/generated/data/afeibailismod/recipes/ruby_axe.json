@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "afeibailismod:ruby"
+    },
+    "S": {
+      "item": "afeibailismod:cerulean_stick"
+    }
+  },
+  "pattern": [
+    "AA",
+    "AS",
+    " S"
+  ],
+  "result": {
+    "item": "afeibailismod:ruby_axe"
+  },
+  "show_notification": true
+}

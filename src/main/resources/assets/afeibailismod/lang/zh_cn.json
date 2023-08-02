@@ -1,0 +1,53 @@
+{
+    "item.afeibailismod.diamond_apple": "钻石苹果",
+    "item.afeibailismod.enchanted_diamond_apple": "附魔钻石苹果",
+    "item.afeibailismod.cerulean_stick": "玄蓝木棍",
+    "item.afeibailismod.sapphire": "霜蓝宝石",
+    "item.afeibailismod.ruby": "炙红宝石",
+    "item.afeibailismod.violet_gemstone": "夜紫宝石",
+
+    "item.afeibailismod.violet_gemstone_sword": "夜紫宝石剑",
+
+    "item.afeibailismod.ocean_dream": "海若之梦",
+    "item.afeibailismod.inferno_dragon": "烛龙黯灭",
+    "item.afeibailismod.age_of_divine_farmers": "碧影流魂",
+    "item.afeibailismod.shadowed_shovel_blade": "暗影刃铲",
+    "item.afeibailismod.qingyun_sharp_pickaxe": "青云锋镐",
+
+    "item.afeibailismod.ruby_sword": "炙红宝石剑",
+    "item.afeibailismod.ruby_axe": "炙红宝石斧",
+    "item.afeibailismod.ruby_shove": "炙红宝石铲",
+    "item.afeibailismod.ruby_pickaxe": "炙红宝石镐",
+    "item.afeibailismod.ruby_hoe": "炙红宝石锄",
+
+    "item.afeibailismod.sapphire_sword": "霜蓝宝石剑",
+    "item.afeibailismod.sapphire_axe": "霜蓝宝石斧",
+    "item.afeibailismod.sapphire_shove": "霜蓝宝石铲",
+    "item.afeibailismod.sapphire_pickaxe": "霜蓝宝石镐",
+    "item.afeibailismod.sapphire_hoe": "霜蓝宝石锄",
+    "item.afeibailismod.sapphire_stick": "玄蓝木棍",
+    "item.afeibailismod.smelly_cat": "臭猫",
+
+    "block.afeibailismod.withered_log": "枯死的原木",
+    "block.afeibailismod.withered_wood": "枯死的木头",
+    "block.afeibailismod.stripped_withered_log": "去皮的枯死原木",
+    "block.afeibailismod.stripped_withered_wood": "去皮的枯死木头",
+    "block.afeibailismod.withered_planks": "枯死木板",
+    "block.afeibailismod.cerulean_log": "玄蓝原木",
+    "block.afeibailismod.cerulean_wood": "玄蓝木",
+    "block.afeibailismod.stripped_cerulean_log": "去皮的玄蓝原木",
+    "block.afeibailismod.stripped_cerulean_wood": "去皮的玄蓝木",
+    "block.afeibailismod.cerulean_planks": "玄蓝木板",
+    "block.afeibailismod.cerulean_leaves": "玄蓝树叶",
+    "block.afeibailismod.cerulean_sapling": "玄蓝树苗",
+    "block.afeibailismod.sapphire_block": "霜蓝宝石块",
+    "block.afeibailismod.sapphire_ore": "霜蓝宝石矿石",
+    "block.afeibailismod.ruby_block": "炙红宝石块",
+    "block.afeibailismod.ruby_ore": "炙红宝石矿",
+
+    "itemgroup.afeibailismod.items": "物品",
+    "itemgroup.afeibailismod.block": "方块",
+    "itemgroup.afeibailismod.combat": "武器",
+    "itemgroup.afeibailismod.tools": "工具"
+
+}

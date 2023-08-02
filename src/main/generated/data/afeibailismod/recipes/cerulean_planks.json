@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "afeibailismod:cerulean_woods"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "afeibailismod:cerulean_planks"
+  }
+}

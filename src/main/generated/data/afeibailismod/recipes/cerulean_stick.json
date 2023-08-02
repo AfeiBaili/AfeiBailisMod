@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "afeibailismod:cerulean_planks"
+    }
+  },
+  "pattern": [
+    "A",
+    "A"
+  ],
+  "result": {
+    "count": 4,
+    "item": "afeibailismod:cerulean_stick"
+  },
+  "show_notification": true
+}

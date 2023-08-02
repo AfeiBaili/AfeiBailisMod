@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "afeibailismod:block/stripped_withered_log_top",
+    "side": "afeibailismod:block/stripped_withered_log"
+  }
+}

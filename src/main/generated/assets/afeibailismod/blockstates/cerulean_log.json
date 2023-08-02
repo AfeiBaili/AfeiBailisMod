@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "afeibailismod:block/cerulean_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "afeibailismod:block/cerulean_log"
+    },
+    "axis=z": {
+      "model": "afeibailismod:block/cerulean_log_horizontal",
+      "x": 90
+    }
+  }
+}
