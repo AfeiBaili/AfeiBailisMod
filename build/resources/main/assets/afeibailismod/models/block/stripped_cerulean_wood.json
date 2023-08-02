@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "afeibailismod:block/stripped_cerulean_log",
+    "side": "afeibailismod:block/stripped_cerulean_log"
+  }
+}

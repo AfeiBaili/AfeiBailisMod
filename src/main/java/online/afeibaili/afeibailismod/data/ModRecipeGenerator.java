@@ -37,16 +37,20 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerSingleOutputShapelessRecipe(exporter,Items.STICK,ModItems.CERULEAN_STICK,"不明白这个是干什么的");
         //工具
         ModRecipeClass.ModSword(exporter,ModItems.RUBY_SWORD,ModItems.RUBY,ModItems.CERULEAN_STICK);
-        ModRecipeClass.ModShove(exporter,ModItems.RUBY_SHOVE,ModItems.RUBY,ModItems.CERULEAN_STICK);
+        ModRecipeClass.ModShove(exporter,ModItems.RUBY_SHOVEL,ModItems.RUBY,ModItems.CERULEAN_STICK);
         ModRecipeClass.ModPickaxe(exporter,ModItems.RUBY_PICKAXE,ModItems.RUBY,ModItems.CERULEAN_STICK);
         ModRecipeClass.ModAxe(exporter,ModItems.RUBY_AXE,ModItems.RUBY,ModItems.CERULEAN_STICK);
         ModRecipeClass.ModHoe(exporter,ModItems.RUBY_HOE,ModItems.RUBY,ModItems.CERULEAN_STICK);
         ModRecipeClass.ModSword(exporter,ModItems.SAPPHIRE_SWORD,ModItems.SAPPHIRE,ModItems.CERULEAN_STICK);
-        ModRecipeClass.ModShove(exporter,ModItems.SAPPHIRE_SHOVE,ModItems.SAPPHIRE,ModItems.CERULEAN_STICK);
+        ModRecipeClass.ModShove(exporter,ModItems.SAPPHIRE_SHOVEL,ModItems.SAPPHIRE,ModItems.CERULEAN_STICK);
         ModRecipeClass.ModPickaxe(exporter,ModItems.SAPPHIRE_PICKAXE,ModItems.SAPPHIRE,ModItems.CERULEAN_STICK);
         ModRecipeClass.ModAxe(exporter,ModItems.SAPPHIRE_AXE,ModItems.SAPPHIRE,ModItems.CERULEAN_STICK);
         ModRecipeClass.ModHoe(exporter,ModItems.SAPPHIRE_HOE,ModItems.SAPPHIRE,ModItems.CERULEAN_STICK);
         ModRecipeClass.ModSword(exporter,ModItems.VIOLET_GEMSTONE_SWORD,ModItems.VIOLET_GEMSTONE,ModItems.CERULEAN_STICK);
+        ModRecipeClass.ModShove(exporter,ModItems.VIOLET_GEMSTONE_SHOVEL,ModItems.VIOLET_GEMSTONE,ModItems.CERULEAN_STICK);
+        ModRecipeClass.ModPickaxe(exporter,ModItems.VIOLET_GEMSTONE_PICKAXE,ModItems.VIOLET_GEMSTONE,ModItems.CERULEAN_STICK);
+        ModRecipeClass.ModAxe(exporter,ModItems.VIOLET_GEMSTONE_AXE,ModItems.VIOLET_GEMSTONE,ModItems.CERULEAN_STICK);
+        ModRecipeClass.ModHoe(exporter,ModItems.VIOLET_GEMSTONE_HOE,ModItems.VIOLET_GEMSTONE,ModItems.CERULEAN_STICK);
         //木棍
         ModRecipeClass.ModStick(exporter,Items.STICK,ModBlocks.WITHERED_PLANKS);
         ModRecipeClass.ModStick(exporter,ModItems.CERULEAN_STICK,ModBlocks.CERULEAN_PLANKS);

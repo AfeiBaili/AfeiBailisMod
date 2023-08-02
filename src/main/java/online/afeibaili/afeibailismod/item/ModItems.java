@@ -45,7 +45,7 @@ public class ModItems {
             new ModRubySwordItem(ModToolMaterials.RUBY, 3, -2.4f, new FabricItemSettings()));
     public static final Item RUBY_AXE = registerItems("ruby_axe",
             new ModRubyAxeItem(ModToolMaterials.RUBY, 5, -3f, new FabricItemSettings()));
-    public static final Item RUBY_SHOVE = registerItems("ruby_shove",
+    public static final Item RUBY_SHOVEL = registerItems("ruby_shovel",
             new ModRubyShovelItem(ModToolMaterials.RUBY, 1.5f, -3f, new FabricItemSettings()));
     public static final Item RUBY_PICKAXE = registerItems("ruby_pickaxe",
             new ModRubyPickaxeItem(ModToolMaterials.RUBY, 1, -2.8f, new FabricItemSettings()));
@@ -57,7 +57,7 @@ public class ModItems {
             new ModSapphireSwordItem(ModToolMaterials.SAPPHIRE, 4, -2.4f, new FabricItemSettings()));
     public static final Item SAPPHIRE_AXE = registerItems("sapphire_axe",
             new ModSapphireAxeItem(ModToolMaterials.SAPPHIRE, 5, -3f, new FabricItemSettings()));
-    public static final Item SAPPHIRE_SHOVE = registerItems("sapphire_shove",
+    public static final Item SAPPHIRE_SHOVEL = registerItems("sapphire_shovel",
             new ModSapphireShovelItem(ModToolMaterials.SAPPHIRE, 1.5f, -3f, new FabricItemSettings()));
     public static final Item SAPPHIRE_PICKAXE = registerItems("sapphire_pickaxe",
             new ModSapphirePickaxeItem(ModToolMaterials.SAPPHIRE, 1, -2.8f, new FabricItemSettings()));
@@ -68,6 +68,14 @@ public class ModItems {
 
     public static final Item VIOLET_GEMSTONE_SWORD = registerItems("violet_gemstone_sword",
             new ModVioletGemstoneSwordItem(ModToolMaterials.VIOLET_GEMSTONE,3,-2.4f,new FabricItemSettings()));
+    public static final Item VIOLET_GEMSTONE_AXE = registerItems("violet_gemstone_axe",
+            new ModVioletGemstoneAxeItem(ModToolMaterials.VIOLET_GEMSTONE,5,-3f,new FabricItemSettings()));
+    public static final Item VIOLET_GEMSTONE_SHOVEL = registerItems("violet_gemstone_shovel",
+            new ModVioletGemstoneShovelItem(ModToolMaterials.VIOLET_GEMSTONE,1.5f,-3f,new FabricItemSettings()));
+    public static final Item VIOLET_GEMSTONE_PICKAXE = registerItems("violet_gemstone_pickaxe",
+            new ModVioletGemstonePickaxeItem(ModToolMaterials.VIOLET_GEMSTONE,1,-2.8f,new FabricItemSettings()));
+    public static final Item VIOLET_GEMSTONE_HOE = registerItems("violet_gemstone_hoe",
+            new ModVioletGemstoneHoeItem(ModToolMaterials.VIOLET_GEMSTONE,-3,0f,new FabricItemSettings()));
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, DIAMOND_APPLE);
@@ -77,18 +85,23 @@ public class ModItems {
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, VIOLET_GEMSTONE);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, CERULEAN_STICK);
 
-        addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, VIOLET_GEMSTONE_SWORD);//待配方
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, VIOLET_GEMSTONE_SWORD);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, VIOLET_GEMSTONE_AXE);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, VIOLET_GEMSTONE_SHOVEL);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, VIOLET_GEMSTONE_PICKAXE);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, VIOLET_GEMSTONE_AXE);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, VIOLET_GEMSTONE_HOE);
 
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, RUBY_SWORD);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, RUBY_AXE);
-        addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, RUBY_SHOVE);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, RUBY_SHOVEL);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, RUBY_PICKAXE);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, RUBY_AXE);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, RUBY_HOE);
 
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, SAPPHIRE_SWORD);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, SAPPHIRE_AXE);
-        addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, SAPPHIRE_SHOVE);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, SAPPHIRE_SHOVEL);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, SAPPHIRE_PICKAXE);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, SAPPHIRE_AXE);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, SAPPHIRE_HOE);

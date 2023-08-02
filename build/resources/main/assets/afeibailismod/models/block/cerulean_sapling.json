@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "afeibailismod:block/cerulean_sapling"
+  }
+}

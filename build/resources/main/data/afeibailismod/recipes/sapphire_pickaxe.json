@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "afeibailismod:sapphire"
+    },
+    "S": {
+      "item": "afeibailismod:cerulean_stick"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "afeibailismod:sapphire_pickaxe"
+  },
+  "show_notification": true
+}

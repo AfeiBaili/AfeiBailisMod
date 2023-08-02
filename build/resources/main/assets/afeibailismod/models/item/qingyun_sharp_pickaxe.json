@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "afeibailismod:item/qingyun_sharp_pickaxe"
+  }
+}

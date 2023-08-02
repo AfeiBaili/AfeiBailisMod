@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stick"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_withered_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "afeibailismod:withered_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_withered_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stick"
+    ]
+  }
+}
