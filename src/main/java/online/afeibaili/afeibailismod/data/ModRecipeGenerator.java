@@ -46,6 +46,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         ModRecipeClass.ModPickaxe(exporter,ModItems.SAPPHIRE_PICKAXE,ModItems.SAPPHIRE,ModItems.CERULEAN_STICK);
         ModRecipeClass.ModAxe(exporter,ModItems.SAPPHIRE_AXE,ModItems.SAPPHIRE,ModItems.CERULEAN_STICK);
         ModRecipeClass.ModHoe(exporter,ModItems.SAPPHIRE_HOE,ModItems.SAPPHIRE,ModItems.CERULEAN_STICK);
+        ModRecipeClass.ModSword(exporter,ModItems.VIOLET_GEMSTONE_SWORD,ModItems.VIOLET_GEMSTONE,ModItems.CERULEAN_STICK);
         //木棍
         ModRecipeClass.ModStick(exporter,Items.STICK,ModBlocks.WITHERED_PLANKS);
         ModRecipeClass.ModStick(exporter,ModItems.CERULEAN_STICK,ModBlocks.CERULEAN_PLANKS);
