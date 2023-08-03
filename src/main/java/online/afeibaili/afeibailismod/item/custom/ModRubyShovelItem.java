@@ -18,7 +18,7 @@ public class ModRubyShovelItem extends ShovelItem {
     }
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        target.setOnFireFor(2);
+        target.setOnFireFor(3);
 
         return super.postHit(stack, target, attacker);
     }

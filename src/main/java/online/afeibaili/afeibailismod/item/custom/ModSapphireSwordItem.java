@@ -22,7 +22,7 @@ public class ModSapphireSwordItem extends SwordItem {
 
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 40, 2), attacker);
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 40, 1), attacker);
         return super.postHit(stack, target, attacker);
     }
 

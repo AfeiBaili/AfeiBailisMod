@@ -60,7 +60,7 @@ public class ModItems {
     //蓝宝石
 
     public static final Item SAPPHIRE_SWORD = registerItems("sapphire_sword",
-            new ModSapphireSwordItem(ModToolMaterials.SAPPHIRE, 4, -2.4f, new FabricItemSettings()));
+            new ModSapphireSwordItem(ModToolMaterials.SAPPHIRE, 3, -2.4f, new FabricItemSettings()));
     public static final Item SAPPHIRE_AXE = registerItems("sapphire_axe",
             new ModSapphireAxeItem(ModToolMaterials.SAPPHIRE, 5, -3f, new FabricItemSettings()));
     public static final Item SAPPHIRE_SHOVEL = registerItems("sapphire_shovel",
@@ -84,7 +84,9 @@ public class ModItems {
             new ModVioletGemstoneHoeItem(ModToolMaterials.VIOLET_GEMSTONE,-3,0f,new FabricItemSettings()));
     //嗜血之刃
     public static final Item BLOODTHIRSTY_BLADE = registerItems("bloodthirsty_blade",
-            new ModBloodthirstyBladeItem(ModToolMaterials.LEGENDARY,10,-1.9f,new FabricItemSettings()));
+            new ModBloodthirstyBladeItem(ModToolMaterials.LEGENDARY,10,-3.3f,new FabricItemSettings()));
+    public static final Item DAGGER_KNIFE = registerItems("dagger_knife",
+            new ModBloodthirstyBladeItem(ModToolMaterials.LEGENDARY,2,-2.4f,new FabricItemSettings()));
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, DIAMOND_APPLE);
@@ -98,6 +100,8 @@ public class ModItems {
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, CERULEAN_STICK);
 
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, BLOODTHIRSTY_BLADE);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, DAGGER_KNIFE);
+
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, VIOLET_GEMSTONE_SWORD);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, VIOLET_GEMSTONE_AXE);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, VIOLET_GEMSTONE_SHOVEL);

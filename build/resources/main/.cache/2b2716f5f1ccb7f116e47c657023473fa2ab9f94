@@ -1,4 +1,4 @@
-// 1.19.4	2023-08-03T17:14:14.0938763	AfeiBailisMod/Model Definitions
+// 1.19.4	2023-08-03T22:52:47.4632199	AfeiBailisMod/Model Definitions
 ccd4c3ad8a4c421401bab928203be3307d884433 assets\afeibailismod\models\item\age_of_divine_farmers.json
 0450258a73e682196b8885a8e70160e29feda299 assets\afeibailismod\models\item\enchanted_diamond_apple.json
 6931b72d9076ff3b968ba309cccaaa5399a05cf3 assets\afeibailismod\blockstates\withered_planks.json
@@ -66,8 +66,8 @@ e8c3963d38483fe1dbace7d8a9cb66bc080c3862 assets\afeibailismod\models\item\violet
 ae0b5e593be1ed7d652012fd9c1bdd2b7ac25e70 assets\afeibailismod\models\item\ruby_shovel.json
 1951e7ca7ad5a8f82a1d0027612d76f8c1e873cc assets\afeibailismod\models\item\withered_log.json
 d14a4a5559d0ff951ba6f1b00e10d3ada6a04c4d assets\afeibailismod\blockstates\stripped_cerulean_wood.json
-d234743fb957601f7b4d134d29bc2ff45c736f0b assets\afeibailismod\models\block\withered_wood.json
 bc492307d05a685ab268cf9fcda58f9e3ac5c383 assets\afeibailismod\models\item\stripped_cerulean_wood.json
+d234743fb957601f7b4d134d29bc2ff45c736f0b assets\afeibailismod\models\block\withered_wood.json
 e4b983e51d605f3ecb076c4128f36c9f80c350cb assets\afeibailismod\models\item\ruby_hoe.json
 ef99195d74f634425729558952883ec4a3ade8a4 assets\afeibailismod\blockstates\stripped_withered_log.json
 c82d0fc7e3ade72b38784b84e9800261792289e1 assets\afeibailismod\models\block\cerulean_wood.json

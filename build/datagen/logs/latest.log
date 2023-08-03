@@ -1,5 +1,5 @@
-[17:18:46] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.21
-[17:18:47] [main/INFO] (FabricLoader) Loading 47 mods:
+[22:52:29] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.21
+[22:52:29] [main/INFO] (FabricLoader) Loading 47 mods:
 	- afeibailismod 1.0.1
 	- customportalapi 0.0.1-beta62-1.19
 	- fabric-api 0.86.1+1.19.4
@@ -47,12 +47,13 @@
 	- fabricloader 0.14.21
 	- java 17
 	- minecraft 1.19.4
-[17:18:48] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/AfeiN/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[17:18:48] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[17:18:48] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[17:19:00] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 291 milliseconds
-[17:19:05] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:19:06] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[22:52:30] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/AfeiN/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[22:52:30] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[22:52:30] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[22:52:30] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[22:52:40] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 154 milliseconds
+[22:52:44] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:52:44] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-3.18.38.jar:?]
@@ -70,16 +71,16 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.18.38.jar:?]
 	... 9 more
-[17:19:06] [Render thread/INFO] (Minecraft) Setting user: Player984
-[17:19:07] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[17:19:08] [Render thread/INFO] (FabricDataGenHelper) Running data generator for afeibailismod
-[17:19:08] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Model Definitions
-[17:19:08] [Render thread/INFO] (Minecraft) AfeiBailisMod/Model Definitions finished after 121 ms
-[17:19:08] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/afeibailismod
-[17:19:08] [Render thread/INFO] (Minecraft) AfeiBailisMod/afeibailismod finished after 343 ms
-[17:19:08] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Block Loot Tables
-[17:19:08] [Render thread/INFO] (Minecraft) AfeiBailisMod/Block Loot Tables finished after 109 ms
-[17:19:08] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Recipes
-[17:19:08] [Render thread/INFO] (Minecraft) AfeiBailisMod/Recipes finished after 71 ms
-[17:19:08] [Render thread/INFO] (Minecraft) All providers took: 648 ms
-[17:19:08] [Render thread/INFO] (Minecraft) Caching: total files: 199, old count: 193, new count: 200, removed stale: 0, written: 8
+[22:52:44] [Render thread/INFO] (Minecraft) Setting user: Player833
+[22:52:45] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[22:52:46] [Render thread/INFO] (FabricDataGenHelper) Running data generator for afeibailismod
+[22:52:46] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Model Definitions
+[22:52:46] [Render thread/INFO] (Minecraft) AfeiBailisMod/Model Definitions finished after 130 ms
+[22:52:46] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/afeibailismod
+[22:52:47] [Render thread/INFO] (Minecraft) AfeiBailisMod/afeibailismod finished after 335 ms
+[22:52:47] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Block Loot Tables
+[22:52:47] [Render thread/INFO] (Minecraft) AfeiBailisMod/Block Loot Tables finished after 112 ms
+[22:52:47] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Recipes
+[22:52:47] [Render thread/INFO] (Minecraft) AfeiBailisMod/Recipes finished after 65 ms
+[22:52:47] [Render thread/INFO] (Minecraft) All providers took: 646 ms
+[22:52:47] [Render thread/INFO] (Minecraft) Caching: total files: 199, old count: 199, new count: 200, removed stale: 0, written: 0
