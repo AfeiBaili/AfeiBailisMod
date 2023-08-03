@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "红宝石",
+  "ingredients": [
+    {
+      "item": "afeibailismod:ruby"
+    }
+  ],
+  "result": {
+    "item": "afeibailismod:ruby_dust"
+  }
+}

@@ -1,5 +1,5 @@
-[23:24:31] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.21
-[23:24:32] [main/INFO] (FabricLoader) Loading 47 mods:
+[17:18:46] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.21
+[17:18:47] [main/INFO] (FabricLoader) Loading 47 mods:
 	- afeibailismod 1.0.1
 	- customportalapi 0.0.1-beta62-1.19
 	- fabric-api 0.86.1+1.19.4
@@ -47,16 +47,15 @@
 	- fabricloader 0.14.21
 	- java 17
 	- minecraft 1.19.4
-[23:24:32] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/AfeiN/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[23:24:33] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[23:24:33] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[23:24:33] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[23:24:42] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 162 milliseconds
-[23:24:45] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:24:46] [Render thread/ERROR] (Minecraft) Failed to verify authentication
-com.mojang.authlib.exceptions.AuthenticationException: com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/player/attributes due to api.minecraftservices.com
-	at com.mojang.authlib.exceptions.MinecraftClientException.toAuthenticationException(MinecraftClientException.java:28) ~[authlib-3.18.38.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:160) ~[authlib-3.18.38.jar:?]
+[17:18:48] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/AfeiN/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[17:18:48] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[17:18:48] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[17:19:00] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 291 milliseconds
+[17:19:05] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:19:06] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:161) ~[authlib-3.18.38.jar:?]
 	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:732) ~[minecraft-project-@-merged-named.jar:?]
@@ -66,43 +65,21 @@ com.mojang.authlib.exceptions.AuthenticationException: com.mojang.authlib.except
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-Caused by: com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/player/attributes due to api.minecraftservices.com
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:93) ~[authlib-3.18.38.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.18.38.jar:?]
 	... 9 more
-Caused by: java.net.UnknownHostException: api.minecraftservices.com
-	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.net.Socket.connect(Socket.java:633) ~[?:?]
-	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:534) ~[?:?]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:639) ~[?:?]
-	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266) ~[?:?]
-	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380) ~[?:?]
-	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1287) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
-	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
-	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529) ~[?:?]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308) ~[?:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:72) ~[authlib-3.18.38.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.18.38.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.18.38.jar:?]
-	... 9 more
-[23:24:46] [Render thread/INFO] (Minecraft) Setting user: Player27
-[23:24:46] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[23:24:47] [Render thread/INFO] (FabricDataGenHelper) Running data generator for afeibailismod
-[23:24:47] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Model Definitions
-[23:24:47] [Render thread/INFO] (Minecraft) AfeiBailisMod/Model Definitions finished after 110 ms
-[23:24:47] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/afeibailismod
-[23:24:48] [Render thread/INFO] (Minecraft) AfeiBailisMod/afeibailismod finished after 329 ms
-[23:24:48] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Block Loot Tables
-[23:24:48] [Render thread/INFO] (Minecraft) AfeiBailisMod/Block Loot Tables finished after 105 ms
-[23:24:48] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Recipes
-[23:24:48] [Render thread/INFO] (Minecraft) AfeiBailisMod/Recipes finished after 60 ms
-[23:24:48] [Render thread/INFO] (Minecraft) All providers took: 607 ms
-[23:24:48] [Render thread/INFO] (Minecraft) Caching: total files: 170, old count: 162, new count: 171, removed stale: 0, written: 12
+[17:19:06] [Render thread/INFO] (Minecraft) Setting user: Player984
+[17:19:07] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[17:19:08] [Render thread/INFO] (FabricDataGenHelper) Running data generator for afeibailismod
+[17:19:08] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Model Definitions
+[17:19:08] [Render thread/INFO] (Minecraft) AfeiBailisMod/Model Definitions finished after 121 ms
+[17:19:08] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/afeibailismod
+[17:19:08] [Render thread/INFO] (Minecraft) AfeiBailisMod/afeibailismod finished after 343 ms
+[17:19:08] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Block Loot Tables
+[17:19:08] [Render thread/INFO] (Minecraft) AfeiBailisMod/Block Loot Tables finished after 109 ms
+[17:19:08] [Render thread/INFO] (Minecraft) Starting provider: AfeiBailisMod/Recipes
+[17:19:08] [Render thread/INFO] (Minecraft) AfeiBailisMod/Recipes finished after 71 ms
+[17:19:08] [Render thread/INFO] (Minecraft) All providers took: 648 ms
+[17:19:08] [Render thread/INFO] (Minecraft) Caching: total files: 199, old count: 193, new count: 200, removed stale: 0, written: 8

@@ -1,0 +1,99 @@
+{
+  "afeibailismod:recipes/tools/ruby_hoe": {
+    "criteria": {
+      "has_ruby": "2023-08-03 16:25:20 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/building_blocks/ruby_block": {
+    "criteria": {
+      "has_ruby": "2023-08-03 16:25:20 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/ruby_pickaxe": {
+    "criteria": {
+      "has_ruby": "2023-08-03 16:25:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2023-08-03 16:18:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2023-08-03 16:18:41 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/ruby_axe": {
+    "criteria": {
+      "has_ruby": "2023-08-03 16:25:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2023-08-03 16:18:41 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/ruby_shovel": {
+    "criteria": {
+      "has_ruby": "2023-08-03 16:25:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-08-03 16:17:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2023-08-03 16:18:41 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/combat/ruby_sword": {
+    "criteria": {
+      "has_ruby": "2023-08-03 16:25:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-08-03 16:17:05 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2023-08-03 16:18:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2023-08-03 16:18:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2023-08-03 16:18:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2023-08-03 16:18:41 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
+}

@@ -11,17 +11,413 @@
     },
     "done": true
   },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-08-01 08:51:24 +0800"
+    },
+    "done": false
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2023-08-01 08:54:21 +0800"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/combat/iron_sword": {
     "criteria": {
-      "minecraft:plains": "2023-08-01 08:51:24 +0800"
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/ruby_hoe": {
+    "criteria": {
+      "has_ruby": "2023-08-03 17:09:54 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/combat/violet_gemstone_sword": {
+    "criteria": {
+      "has_violet_gemstone": "2023-08-03 17:10:24 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/sapphire_pickaxe": {
+    "criteria": {
+      "has_sapphire": "2023-08-03 17:10:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/misc/violet_gemstone_from_smelting_violet_gemstone_dust": {
+    "criteria": {
+      "has_violet_gemstone_dust": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/building_blocks/ruby_block": {
+    "criteria": {
+      "has_ruby": "2023-08-03 17:09:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2023-08-03 17:13:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2023-08-03 17:13:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2023-08-03 17:10:56 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/building_blocks/violet_gemstone_block": {
+    "criteria": {
+      "has_violet_gemstone": "2023-08-03 17:10:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/ruby_pickaxe": {
+    "criteria": {
+      "has_ruby": "2023-08-03 17:09:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/ruby_axe": {
+    "criteria": {
+      "has_ruby": "2023-08-03 17:09:54 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/misc/ruby_dust_from_ruby": {
+    "criteria": {
+      "has_ruby": "2023-08-03 17:09:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/ruby_shovel": {
+    "criteria": {
+      "has_ruby": "2023-08-03 17:09:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/violet_gemstone_pickaxe": {
+    "criteria": {
+      "has_violet_gemstone": "2023-08-03 17:10:24 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/sapphire_hoe": {
+    "criteria": {
+      "has_sapphire": "2023-08-03 17:10:13 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/building_blocks/cerulean_planks": {
+    "criteria": {
+      "has_logs": "2023-08-03 17:10:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2023-08-03 17:13:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/violet_gemstone_shovel": {
+    "criteria": {
+      "has_violet_gemstone": "2023-08-03 17:10:24 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/combat/ruby_sword": {
+    "criteria": {
+      "has_ruby": "2023-08-03 17:09:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/violet_gemstone_axe": {
+    "criteria": {
+      "has_violet_gemstone": "2023-08-03 17:10:24 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/combat/sapphire_sword": {
+    "criteria": {
+      "has_sapphire": "2023-08-03 17:10:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/misc/sapphire_from_smelting_sapphire_ore": {
+    "criteria": {
+      "has_sapphire_ore": "2023-08-03 17:10:39 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/misc/ruby_from_smelting_ruby_dust": {
+    "criteria": {
+      "has_ruby_dust": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/misc/sapphire_from_smelting_sapphire_dust": {
+    "criteria": {
+      "has_sapphire_dust": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/violet_gemstone_hoe": {
+    "criteria": {
+      "has_violet_gemstone": "2023-08-03 17:10:24 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/sapphire_shovel": {
+    "criteria": {
+      "has_sapphire": "2023-08-03 17:10:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/misc/sapphire_dust_from_sapphire": {
+    "criteria": {
+      "has_sapphire": "2023-08-03 17:10:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/misc/violet_gemstone_dust_from_violet_gemstone_dust": {
+    "criteria": {
+      "has_violet_gemstone_dust": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/tools/sapphire_axe": {
+    "criteria": {
+      "has_sapphire": "2023-08-03 17:10:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2023-08-03 17:09:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2023-08-03 17:09:27 +0800"
+    },
+    "done": true
+  },
+  "afeibailismod:recipes/building_blocks/sapphire_block": {
+    "criteria": {
+      "has_sapphire": "2023-08-03 17:10:13 +0800"
+    },
+    "done": true
   },
   "DataVersion": 3337
 }

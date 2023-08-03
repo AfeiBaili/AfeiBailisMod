@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 5.0,
+  "group": "红宝石矿",
+  "ingredient": {
+    "item": "afeibailismod:ruby_ore"
+  },
+  "result": "afeibailismod:ruby"
+}

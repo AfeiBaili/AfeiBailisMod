@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 5.0,
+  "group": "红宝石",
+  "ingredient": {
+    "item": "afeibailismod:ruby_dust"
+  },
+  "result": "afeibailismod:ruby"
+}

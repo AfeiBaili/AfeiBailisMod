@@ -12,6 +12,8 @@ import online.afeibaili.afeibailismod.block.ModBlocks;
 import online.afeibaili.afeibailismod.item.ModItems;
 import online.afeibaili.afeibailismod.util.ModTags;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Consumer;
 
 //Data配方数据生成
@@ -35,7 +37,21 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerBarkBlockRecipe(exporter,ModBlocks.STRIPPED_CERULEAN_WOOD,ModBlocks.STRIPPED_CERULEAN_LOG);
         offerBarkBlockRecipe(exporter,ModBlocks.WITHERED_WOOD,ModBlocks.WITHERED_LOG);
         offerBarkBlockRecipe(exporter,ModBlocks.STRIPPED_WITHERED_WOOD,ModBlocks.STRIPPED_WITHERED_LOG);
-        offerSingleOutputShapelessRecipe(exporter,Items.STICK,ModItems.CERULEAN_STICK,"不明白这个是干什么的");
+        offerSingleOutputShapelessRecipe(exporter,Items.STICK,ModItems.CERULEAN_STICK,"木棍");
+        offerSingleOutputShapelessRecipe(exporter,ModItems.SAPPHIRE_DUST,ModItems.SAPPHIRE,"蓝宝石");
+        offerSingleOutputShapelessRecipe(exporter,ModItems.RUBY_DUST,ModItems.RUBY,"红宝石");
+        offerSingleOutputShapelessRecipe(exporter,ModItems.VIOLET_GEMSTONE_DUST,ModItems.VIOLET_GEMSTONE_DUST,"紫宝石");
+
+        offerSmelting(exporter, List.of(ModItems.SAPPHIRE_DUST),RecipeCategory.MISC,ModItems.SAPPHIRE,5,200,"蓝宝石");
+        offerSmelting(exporter, List.of(ModItems.RUBY_DUST),RecipeCategory.MISC,ModItems.RUBY,5,200,"红宝石");
+        offerSmelting(exporter, List.of(ModItems.VIOLET_GEMSTONE_DUST),RecipeCategory.MISC,ModItems.VIOLET_GEMSTONE,5,200,"紫宝石");
+        offerBlasting(exporter, List.of(ModItems.SAPPHIRE_DUST),RecipeCategory.MISC,ModItems.SAPPHIRE,5,200,"蓝宝石");
+        offerBlasting(exporter, List.of(ModItems.RUBY_DUST),RecipeCategory.MISC,ModItems.RUBY,5,200,"红宝石");
+        offerBlasting(exporter, List.of(ModItems.VIOLET_GEMSTONE_DUST),RecipeCategory.MISC,ModItems.VIOLET_GEMSTONE,5,200,"紫宝石");
+        offerSmelting(exporter, List.of(ModBlocks.SAPPHIRE_ORE),RecipeCategory.MISC,ModItems.SAPPHIRE,5,200,"蓝宝石");
+        offerSmelting(exporter, List.of(ModBlocks.DEEPSLATE_RUBY_ORE),RecipeCategory.MISC,ModItems.RUBY,5,200,"红宝石");
+        offerBlasting(exporter, List.of(ModBlocks.SAPPHIRE_ORE),RecipeCategory.MISC,ModItems.SAPPHIRE,5,100,"蓝宝石矿");
+        offerBlasting(exporter, List.of(ModBlocks.DEEPSLATE_RUBY_ORE),RecipeCategory.MISC,ModItems.RUBY,5,100,"红宝石矿");
         //工具
         ModRecipeClass.ModSword(exporter,ModItems.RUBY_SWORD,ModItems.RUBY,ModItems.CERULEAN_STICK);
         ModRecipeClass.ModShove(exporter,ModItems.RUBY_SHOVEL,ModItems.RUBY,ModItems.CERULEAN_STICK);

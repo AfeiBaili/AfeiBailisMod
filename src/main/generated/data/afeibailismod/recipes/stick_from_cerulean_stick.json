@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "不明白这个是干什么的",
+  "group": "木棍",
   "ingredients": [
     {
       "item": "afeibailismod:cerulean_stick"

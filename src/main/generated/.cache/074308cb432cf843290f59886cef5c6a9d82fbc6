@@ -1,4 +1,4 @@
-// 1.19.4	2023-08-02T23:24:48.3540058	AfeiBailisMod/Block Loot Tables
+// 1.19.4	2023-08-03T17:19:08.9506378	AfeiBailisMod/Block Loot Tables
 f06eab0cfdc1788c93a12849534aefd7dde3f9ee data\afeibailismod\loot_tables\blocks\cerulean_wood.json
 930066c3a15d4b532a9d4ede323c528805d5b5b9 data\afeibailismod\loot_tables\blocks\ruby_ore.json
 a680e0e601b94c7f316b8be318313d25e307d00d data\afeibailismod\loot_tables\blocks\withered_log.json
@@ -6,8 +6,8 @@ ca09aa9a96b2d77a4dca44cfbf57377d50b5541e data\afeibailismod\loot_tables\blocks\s
 f13613b7fba5322863a105b4d43aa2c15bdbec24 data\afeibailismod\loot_tables\blocks\cerulean_planks.json
 db9d0912e9d85038908eab6a77365dab23f0f628 data\afeibailismod\loot_tables\blocks\cerulean_log.json
 ec9e6a290d71c8ce71a722fe59aea4c49abc815d data\afeibailismod\loot_tables\blocks\withered_planks.json
-f0f8e0bd433db718b305af0cdc0add74129bf410 data\afeibailismod\loot_tables\blocks\sapphire_ore.json
 c0a599546dbc7f54b37c1ad8c2fc1b97b8b6dd36 data\afeibailismod\loot_tables\blocks\violet_gemstone_block.json
+f0f8e0bd433db718b305af0cdc0add74129bf410 data\afeibailismod\loot_tables\blocks\sapphire_ore.json
 ab2e817b39aeada2a0771a544e4bb5b19da13b71 data\afeibailismod\loot_tables\blocks\cerulean_sapling.json
 b4026a2ce215e9b07e59fec1b3ae012f47f631f3 data\afeibailismod\loot_tables\blocks\withered_wood.json
 21cb0bcd8cc4a0d6c9d4579c3dbada9c06533ade data\afeibailismod\loot_tables\blocks\ruby_block.json

@@ -12,7 +12,7 @@ public enum ModToolMaterials implements ToolMaterial {
     SAPPHIRE(MiningLevels.DIAMOND, 4137, 8.0f, 3.0f, 15, () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
     RUBY(MiningLevels.DIAMOND, 4137, 8.0f, 3.0f, 15, () -> Ingredient.ofItems(ModItems.RUBY)),
     VIOLET_GEMSTONE(MiningLevels.DIAMOND, 4137, 8.0f, 3.0f, 15, () -> Ingredient.ofItems(ModItems.RUBY)),
-    LEGENDARY(MiningLevels.NETHERITE, 975709430, 15.0f, 4.0f, 520, () -> Ingredient.ofItems(Items.NETHER_STAR));
+    LEGENDARY(MiningLevels.NETHERITE, 975709430, 8.0f, 4.0f, 520, () -> Ingredient.ofItems(Items.NETHER_STAR));
 
     private final int miningLevel;
     private final int itemDurability;

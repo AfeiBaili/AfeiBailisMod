@@ -3,8 +3,11 @@
   "item.afeibailismod.enchanted_diamond_apple": "Enchanted Diamond Apple",
   "item.afeibailismod.cerulean_stick": "Cerulean Stick",
   "item.afeibailismod.sapphire": "Sapphire",
+  "item.afeibailismod.sapphire_dust": "Sapphire Dust",
   "item.afeibailismod.ruby": "Ruby",
+  "item.afeibailismod.ruby_dust": "Ruby Dust",
   "item.afeibailismod.violet_gemstone": "Violet Gemstone",
+  "item.afeibailismod.violet_gemstone_dust": "Violet Gemstone Dust",
 
   "item.afeibailismod.violet_gemstone_sword": "Violet Gemstone Sword",
   "item.afeibailismod.violet_gemstone_axe": "Violet Gemstone Axe",
@@ -32,6 +35,8 @@
   "item.afeibailismod.sapphire_stick": "Cerulean Stick",
   "item.afeibailismod.smelly_cat": "Smelly Cat",
 
+  "item.afeibailismod.bloodthirsty_blade": "Bloodthirsty Blade",
+
   "block.afeibailismod.withered_log": "Withered Log",
   "block.afeibailismod.withered_wood": "Withered Wood",
   "block.afeibailismod.stripped_withered_log": "Stripped Withered Log",
@@ -50,6 +55,8 @@
 
   "block.afeibailismod.ruby_block": "Ruby Block",
   "block.afeibailismod.ruby_ore": "Ruby Ore",
+
+  "block.afeibailismod.violet_gemstone_block": "Violet Gemstone Block",
 
   "itemgroup.afeibailismod.items": "Item",
   "itemgroup.afeibailismod.block": "Block",

@@ -21,11 +21,17 @@ public class ModItems {
             new EnchantedDiamondAppleItem(new FabricItemSettings().rarity(Rarity.EPIC).food((new FoodComponent.Builder().hunger(4).saturationModifier(1.2f).statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 4800, 3), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 3600, 0), 0.7f).statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 6000, 0), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 9600, 4), 1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 3600, 0), 0.1f).alwaysEdible().build()))));
     public static final Item SAPPHIRE = registerItems("sapphire",
             new Item(new FabricItemSettings()));
+    public static final Item SAPPHIRE_DUST  = registerItems("sapphire_dust",
+            new Item(new FabricItemSettings()));
     public static final Item RUBY = registerItems("ruby",
             new Item(new FabricItemSettings()));
-    public static final Item CERULEAN_STICK = registerItems("cerulean_stick",
+    public static final Item RUBY_DUST = registerItems("ruby_dust",
             new Item(new FabricItemSettings()));
     public static final Item VIOLET_GEMSTONE = registerItems("violet_gemstone",
+            new Item(new FabricItemSettings()));
+    public static final Item VIOLET_GEMSTONE_DUST = registerItems("violet_gemstone_dust",
+            new Item(new FabricItemSettings()));
+    public static final Item CERULEAN_STICK = registerItems("cerulean_stick",
             new Item(new FabricItemSettings()));
     public static final Item SMELLY_CAT = registerItems("smelly_cat",
             new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).food(new FoodComponent.Builder().hunger(1).saturationModifier(114514f).alwaysEdible().build())));
@@ -76,15 +82,22 @@ public class ModItems {
             new ModVioletGemstonePickaxeItem(ModToolMaterials.VIOLET_GEMSTONE,1,-2.8f,new FabricItemSettings()));
     public static final Item VIOLET_GEMSTONE_HOE = registerItems("violet_gemstone_hoe",
             new ModVioletGemstoneHoeItem(ModToolMaterials.VIOLET_GEMSTONE,-3,0f,new FabricItemSettings()));
+    //嗜血之刃
+    public static final Item BLOODTHIRSTY_BLADE = registerItems("bloodthirsty_blade",
+            new ModBloodthirstyBladeItem(ModToolMaterials.LEGENDARY,10,-1.9f,new FabricItemSettings()));
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, DIAMOND_APPLE);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, ENCHANTED_DIAMOND_APPLE);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, SAPPHIRE);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, SAPPHIRE_DUST);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, RUBY);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, RUBY_DUST);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, VIOLET_GEMSTONE);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, VIOLET_GEMSTONE_DUST);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, CERULEAN_STICK);
 
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, BLOODTHIRSTY_BLADE);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, VIOLET_GEMSTONE_SWORD);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, VIOLET_GEMSTONE_AXE);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_TOOLS, VIOLET_GEMSTONE_SHOVEL);

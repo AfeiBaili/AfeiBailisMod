@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:violet_gemstone_from_blasting_violet_gemstone_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_violet_gemstone_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "afeibailismod:violet_gemstone_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_violet_gemstone_dust",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:violet_gemstone_from_blasting_violet_gemstone_dust"
+    ]
+  }
+}

@@ -51,6 +51,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.SMELLY_CAT, Models.GENERATED);
         itemModelGenerator.register(ModItems.VIOLET_GEMSTONE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SAPPHIRE_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUBY_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VIOLET_GEMSTONE_DUST, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CERULEAN_STICK,Models.HANDHELD);
         itemModelGenerator.register(ModItems.OCEAN_DREAM ,Models.HANDHELD);

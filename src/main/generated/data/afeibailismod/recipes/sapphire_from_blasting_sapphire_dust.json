@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 5.0,
+  "group": "蓝宝石",
+  "ingredient": {
+    "item": "afeibailismod:sapphire_dust"
+  },
+  "result": "afeibailismod:sapphire"
+}

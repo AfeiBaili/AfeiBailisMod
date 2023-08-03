@@ -3,8 +3,11 @@
     "item.afeibailismod.enchanted_diamond_apple": "附魔钻石苹果",
     "item.afeibailismod.cerulean_stick": "玄蓝木棍",
     "item.afeibailismod.sapphire": "霜蓝宝石",
+    "item.afeibailismod.sapphire_dust": "霜蓝宝石粉",
     "item.afeibailismod.ruby": "炙红宝石",
+    "item.afeibailismod.ruby_dust": "炙红宝石粉",
     "item.afeibailismod.violet_gemstone": "夜紫宝石",
+    "item.afeibailismod.violet_gemstone_dust": "夜紫宝石粉",
 
     "item.afeibailismod.violet_gemstone_sword": "夜紫宝石剑",
     "item.afeibailismod.violet_gemstone_axe": "夜紫宝石斧",
@@ -32,6 +35,8 @@
     "item.afeibailismod.sapphire_stick": "玄蓝木棍",
     "item.afeibailismod.smelly_cat": "臭猫",
 
+    "item.afeibailismod.bloodthirsty_blade": "血刃",
+
     "block.afeibailismod.withered_log": "枯死的原木",
     "block.afeibailismod.withered_wood": "枯死的木头",
     "block.afeibailismod.stripped_withered_log": "去皮的枯死原木",
@@ -51,9 +56,9 @@
     "block.afeibailismod.ruby_block": "炙红宝石块",
     "block.afeibailismod.ruby_ore": "炙红宝石矿",
 
+    "itemgroup.afeibailismod.items": "物品",
     "block.afeibailismod.violet_gemstone_block": "夜紫宝石块",
 
-    "itemgroup.afeibailismod.items": "物品",
     "itemgroup.afeibailismod.block": "方块",
     "itemgroup.afeibailismod.combat": "武器",
     "itemgroup.afeibailismod.tools": "工具"

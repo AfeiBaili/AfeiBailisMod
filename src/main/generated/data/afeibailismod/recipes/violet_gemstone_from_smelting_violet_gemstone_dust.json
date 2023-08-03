@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 5.0,
+  "group": "紫宝石",
+  "ingredient": {
+    "item": "afeibailismod:violet_gemstone_dust"
+  },
+  "result": "afeibailismod:violet_gemstone"
+}

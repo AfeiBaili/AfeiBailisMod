@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "蓝宝石",
+  "ingredients": [
+    {
+      "item": "afeibailismod:sapphire"
+    }
+  ],
+  "result": {
+    "item": "afeibailismod:sapphire_dust"
+  }
+}

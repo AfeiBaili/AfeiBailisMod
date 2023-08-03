@@ -1,4 +1,4 @@
-// 1.19.4	2023-08-02T23:24:48.3571207	AfeiBailisMod/Model Definitions
+// 1.19.4	2023-08-03T17:14:14.0938763	AfeiBailisMod/Model Definitions
 ccd4c3ad8a4c421401bab928203be3307d884433 assets\afeibailismod\models\item\age_of_divine_farmers.json
 0450258a73e682196b8885a8e70160e29feda299 assets\afeibailismod\models\item\enchanted_diamond_apple.json
 6931b72d9076ff3b968ba309cccaaa5399a05cf3 assets\afeibailismod\blockstates\withered_planks.json
@@ -33,6 +33,7 @@ b720a50cfe55dc2e018af5736acbcad4dec931a6 assets\afeibailismod\models\item\cerule
 dd748b98209aab9f7bbed3555f26435bf58eb587 assets\afeibailismod\models\item\inferno_dragon.json
 c32016393e8325fc45d2514d80548d7506d65a53 assets\afeibailismod\models\item\diamond_apple.json
 6a85100c00db497b2300f3088e2c8e36350d05e0 assets\afeibailismod\models\item\withered_planks.json
+c6341567f4b5920f674aed41358cdf87fbe18905 assets\afeibailismod\models\item\ruby_dust.json
 6d2a5faad037250fac55fcb3df1a2d91d892809b assets\afeibailismod\models\item\violet_gemstone_pickaxe.json
 24cb1e99d88c4c8f68003f50ccbbd28bb8c62a5f assets\afeibailismod\models\block\cerulean_log.json
 c5c9ac446925d88122ab407bf695dbb0e112dbbd assets\afeibailismod\blockstates\cerulean_log.json
@@ -46,6 +47,7 @@ d86cc220fd374b8c667cfda7cbb66196751006c8 assets\afeibailismod\models\block\sapph
 1c50ebcf0b0e6b94de257d0ef41781cf22122da8 assets\afeibailismod\models\item\stripped_withered_log.json
 c64e692b4be35977527819387c4361594fe5d937 assets\afeibailismod\models\block\stripped_withered_log_horizontal.json
 7f1d0087fb241f996d605322baa1f8c6305d0a9c assets\afeibailismod\blockstates\withered_wood.json
+c160b01c6f6dd0d69716d6dd8ba42aa2359906c9 assets\afeibailismod\models\item\sapphire_dust.json
 5487b07f8f8e19e4980ead3e29fd0d751cb8f090 assets\afeibailismod\models\item\sapphire_ore.json
 d3c4a0a73b1f93e46789641315c5f2a6a1805cf2 assets\afeibailismod\models\item\ruby_axe.json
 302a120cba161a62584dc42b0a13b0be3a24814f assets\afeibailismod\models\item\ruby_sword.json
@@ -76,6 +78,7 @@ b91a7b13a3f9220869a975b3cf7719fe77b696c6 assets\afeibailismod\models\block\cerul
 3276110365baf6628407ad331a3d50fc0641127e assets\afeibailismod\models\item\sapphire_hoe.json
 9fc0e102e30595477fe198e3237fd7528de4b402 assets\afeibailismod\models\item\cerulean_sapling.json
 f75b91e94f13de18889b09e1b2a260947169cd9f assets\afeibailismod\blockstates\withered_log.json
+3d5babbc6f827aca764e4fe973161443d3e19535 assets\afeibailismod\models\item\violet_gemstone_dust.json
 76ab0ab7f0987b19952d8d3ec2469fe824f6e2b0 assets\afeibailismod\models\item\sapphire_shovel.json
 b9da0855ec5b665953e73bf5c80f67a78cd27018 assets\afeibailismod\models\item\cerulean_wood.json
 d9bbbc08df21ac28781ee19e0cbda4af0ced1581 assets\afeibailismod\models\block\withered_log_horizontal.json
