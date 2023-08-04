@@ -1,0 +1,42 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-08-04 14:36:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-08-04 14:37:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2023-08-04 14:37:09 +0800",
+      "minecraft:spider": "2023-08-04 14:37:00 +0800",
+      "minecraft:creeper": "2023-08-04 14:37:05 +0800",
+      "minecraft:zombie": "2023-08-04 14:37:17 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2023-08-04 14:37:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2023-08-04 14:37:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-08-04 14:36:53 +0800"
+    },
+    "done": false
+  },
+  "DataVersion": 3337
+}

@@ -22,13 +22,10 @@ public class ModBloodthirstyBladeItem extends SwordItem {
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         //吸血
-        float sh = target.getHealth();
-        float xl = target.getMaxHealth() - sh;
-        float xx = xl * 0.2f;
         if(target.isDead()){
             attacker.heal(3);
         }
-        attacker.heal(xx);
+        attacker.heal(1.5f);
 
         return super.postHit(stack, target, attacker);
     }

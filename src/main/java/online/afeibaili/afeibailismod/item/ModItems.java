@@ -86,7 +86,7 @@ public class ModItems {
     public static final Item BLOODTHIRSTY_BLADE = registerItems("bloodthirsty_blade",
             new ModBloodthirstyBladeItem(ModToolMaterials.LEGENDARY,10,-3.3f,new FabricItemSettings()));
     public static final Item DAGGER_KNIFE = registerItems("dagger_knife",
-            new ModBloodthirstyBladeItem(ModToolMaterials.LEGENDARY,2,-2.4f,new FabricItemSettings()));
+            new ModDaggerKnifeItem(ModToolMaterials.LEGENDARY,7,-2.4f,new FabricItemSettings()));
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, DIAMOND_APPLE);

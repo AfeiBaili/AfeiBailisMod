@@ -40,7 +40,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerSingleOutputShapelessRecipe(exporter,Items.STICK,ModItems.CERULEAN_STICK,"木棍");
         offerSingleOutputShapelessRecipe(exporter,ModItems.SAPPHIRE_DUST,ModItems.SAPPHIRE,"蓝宝石");
         offerSingleOutputShapelessRecipe(exporter,ModItems.RUBY_DUST,ModItems.RUBY,"红宝石");
-        offerSingleOutputShapelessRecipe(exporter,ModItems.VIOLET_GEMSTONE_DUST,ModItems.VIOLET_GEMSTONE_DUST,"紫宝石");
+        offerSingleOutputShapelessRecipe(exporter,ModItems.VIOLET_GEMSTONE_DUST,ModItems.VIOLET_GEMSTONE,"紫宝石");
 
         offerSmelting(exporter, List.of(ModItems.SAPPHIRE_DUST),RecipeCategory.MISC,ModItems.SAPPHIRE,5,200,"蓝宝石");
         offerSmelting(exporter, List.of(ModItems.RUBY_DUST),RecipeCategory.MISC,ModItems.RUBY,5,200,"红宝石");
