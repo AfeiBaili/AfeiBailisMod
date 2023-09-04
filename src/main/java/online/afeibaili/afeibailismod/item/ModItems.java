@@ -37,7 +37,7 @@ public class ModItems {
             new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).food(new FoodComponent.Builder().hunger(1).saturationModifier(114514f).alwaysEdible().build())));
     //神器
     public static final Item OCEAN_DREAM = registerItems("ocean_dream",
-            new OceanDreamItem(ModToolMaterials.LEGENDARY, 2, 0f, new FabricItemSettings().rarity(Rarity.EPIC)));
+            new OceanDream(ModToolMaterials.LEGENDARY, 2, 0f, new FabricItemSettings().rarity(Rarity.EPIC)));
     public static final Item INFERNO_DRAGON = registerItems("inferno_dragon",
             new InfernoDragonItem(ModToolMaterials.LEGENDARY, 7, -3f, new FabricItemSettings().rarity(Rarity.EPIC)));
     public static final Item AGE_OF_DIVINE_FARMERS = registerItems("age_of_divine_farmers",
@@ -84,9 +84,16 @@ public class ModItems {
             new ModVioletGemstoneHoeItem(ModToolMaterials.VIOLET_GEMSTONE,-3,0f,new FabricItemSettings()));
     //嗜血之刃
     public static final Item BLOODTHIRSTY_BLADE = registerItems("bloodthirsty_blade",
-            new ModBloodthirstyBladeItem(ModToolMaterials.LEGENDARY,10,-3.3f,new FabricItemSettings()));
+            new ModBloodthirstyBladeItem(ModToolMaterials.LEGENDARY,10,-3.3f,new FabricItemSettings().rarity(Rarity.EPIC)));
+    //刀
     public static final Item DAGGER_KNIFE = registerItems("dagger_knife",
-            new ModDaggerKnifeItem(ModToolMaterials.LEGENDARY,7,-2.4f,new FabricItemSettings()));
+            new ModDaggerKnifeItem(ModToolMaterials.LEGENDARY,3,-2.4f,new FabricItemSettings().rarity(Rarity.EPIC)));
+    //弓箭
+    public static final Item ICE_FIRE_BOW = registerItems("ice_fire_bow",
+            new ModIceFireBowItem(new FabricItemSettings().rarity(Rarity.EPIC).maxDamage(975709430)));
+    //海景石镰刀
+    public static final Item PRISMARINE_SCYTHE = registerItems("prismarine_scythe",
+            new ModPrismarineScytheItem(ModToolMaterials.LEGENDARY,6,-3f,new FabricItemSettings().rarity(Rarity.EPIC)));
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_ITEMS, DIAMOND_APPLE);
@@ -101,6 +108,8 @@ public class ModItems {
 
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, BLOODTHIRSTY_BLADE);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, DAGGER_KNIFE);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, ICE_FIRE_BOW);
+        addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, PRISMARINE_SCYTHE);
 
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, VIOLET_GEMSTONE_SWORD);
         addToItemGroup(ModItemGroup.AFEIBAILISMOD_COMBAT, VIOLET_GEMSTONE_AXE);

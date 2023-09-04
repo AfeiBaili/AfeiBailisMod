@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "afeibailismod:sapphire_dust"
+    },
+    {
+      "item": "afeibailismod:ruby_dust"
+    }
+  ],
+  "result": {
+    "item": "afeibailismod:violet_gemstone_dust",
+    "count": 2
+  }
+}

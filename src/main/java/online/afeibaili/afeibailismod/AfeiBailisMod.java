@@ -6,6 +6,7 @@ import online.afeibaili.afeibailismod.block.ModBlocks;
 import online.afeibaili.afeibailismod.block.ModFlammableBlockRegistry;
 import online.afeibaili.afeibailismod.item.ModItemGroup;
 import online.afeibaili.afeibailismod.item.ModItems;
+import online.afeibaili.afeibailismod.util.ModModelPredicateProvider;
 import online.afeibaili.afeibailismod.world.dimension.ModPortals;
 import online.afeibaili.afeibailismod.world.gen.ModWorldGeneration;
 
@@ -31,10 +32,9 @@ public class AfeiBailisMod implements ModInitializer {
         //可剥离的
         StrippableBlockRegistry.register(ModBlocks.CERULEAN_LOG, ModBlocks.STRIPPED_CERULEAN_LOG);
         StrippableBlockRegistry.register(ModBlocks.CERULEAN_WOOD, ModBlocks.STRIPPED_CERULEAN_WOOD);
-
         StrippableBlockRegistry.register(ModBlocks.WITHERED_LOG,ModBlocks.STRIPPED_WITHERED_LOG);
         StrippableBlockRegistry.register(ModBlocks.WITHERED_WOOD,ModBlocks.STRIPPED_WITHERED_WOOD);
 
-        
+        ModModelPredicateProvider.registerModModels();
     }
 }

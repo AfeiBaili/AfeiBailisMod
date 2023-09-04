@@ -1,5 +1,5 @@
-[15:28:08] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.21
-[15:28:09] [main/INFO] (FabricLoader) Loading 52 mods:
+[20:41:20] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.14.21
+[20:41:20] [main/INFO] (FabricLoader) Loading 52 mods:
 	- afeibailismod 1.0.1
 	- appleskin 2.4.3+mc1.19.4
 	   \-- cloth-config 10.0.95
@@ -52,13 +52,12 @@
 	- java 17
 	- jei 13.1.0.11
 	- minecraft 1.19.4
-[15:28:14] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/AfeiN/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[15:28:15] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[15:28:15] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[15:28:15] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[15:28:28] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 212 milliseconds
-[15:28:32] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:28:33] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[20:41:25] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/AfeiN/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[20:41:25] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[20:41:25] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[20:41:34] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 151 milliseconds
+[20:41:38] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:41:39] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-3.18.38.jar:?]
@@ -76,542 +75,156 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.18.38.jar:?]
 	... 9 more
-[15:28:33] [Render thread/INFO] (Minecraft) Setting user: Player435
-[15:28:35] [Render thread/INFO] (PluginCaller) Sending ConfigManager...
-[15:28:35] [Render thread/INFO] (PluginCaller) Sending ConfigManager took 6.957 ms
-[15:28:35] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[15:28:36] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[15:28:38] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-blockrenderlayer-v1, fabric-block-api-v1, cloth-config, fabric-rendering-v1, fabric-item-api-v1, fabric-gametest-api-v1, fabric-transfer-api-v1, fabric-key-binding-api-v1, fabric-api-base, fabric-item-group-api-v1, fabric-convention-tags-v1, fabric-client-tags-api-v1, fabric-resource-conditions-api-v1, fabric-content-registries-v0, fabric-recipe-api-v1, fabric-screen-handler-api-v1, fabric-events-interaction-v0, fabric-renderer-api-v1, fabric-networking-api-v1, fabric-rendering-data-attachment-v1, fabric-registry-sync-v0, fabric-sound-api-v1, fabric-message-api-v1, fabric-rendering-fluids-v1, fabric-biome-api-v1, appleskin, fabric-command-api-v2, fabric-data-generation-api-v1, afeibailismod, fabric-object-builder-api-v1, fabric-mining-level-api-v1, fabric-entity-events-v1, fabric-resource-loader-v0, jei, disable_custom_worlds_advice, fabricloader, fabric-transitive-access-wideners-v1, fabric-renderer-indigo, fabric-screen-api-v1, fabric-crash-report-info-v1, fabric-api, fabric-api-lookup-api-v1, customportalapi, fabric-particles-v1, fabric-game-rule-api-v1, fabric-loot-api-v2, fabric-model-loading-api-v1, fabric-dimensions-v1, fabric-lifecycle-events-v1)
-[15:28:38] [Worker-Main-5/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack afeibailismod: afeibailismod:textures/item/下届合金 红宝石 打火石.png, ignoring
-[15:28:38] [Worker-Main-14/WARN] (Minecraft) Texture afeibailismod:item/smelly_cat with size 30x30 limits mip level from 4 to 1
-[15:28:38] [Worker-Main-14/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
-[15:28:39] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[15:28:40] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brushing
-[15:28:40] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brush_sand_completed
-[15:28:40] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[15:28:40] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[15:28:40] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:music.overworld.cherry_grove
-[15:28:40] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
-[15:28:40] [Render thread/INFO] (Minecraft) Sound engine started
-[15:28:40] [Render thread/INFO] (Minecraft) Created: 1024x1024x1 minecraft:textures/atlas/blocks.png-atlas
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[15:28:41] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[15:28:41] [Render thread/INFO] (Minecraft) Created: 256x128x0 jei:textures/atlas/gui.png-atlas
-[15:28:51] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[15:28:52] [Render thread/INFO] (Minecraft) Loaded 1225 advancements
-[15:28:52] [Render thread/INFO] (ClientLifecycleHandler) Stopping JEI
-[15:28:52] [Render thread/INFO] (JeiStarter) Stopping JEI
-[15:28:52] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable...
-[15:28:52] [Render thread/INFO] (FabricGuiPlugin) Stopping JEI GUI
-[15:28:52] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable took 465.4 μs
-[15:28:52] [Render thread/INFO] (BiomeModificationImpl) Applied 5 biome modifications to 4 of 63 new biomes in 25.52 ms
-[15:28:52] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.4
-[15:28:52] [Server thread/INFO] (Minecraft) Generating keypair
-[15:28:53] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[15:28:55] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
-[15:28:55] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
-[15:28:55] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
-[15:28:55] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
-[15:28:55] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
-[15:28:56] [Render thread/INFO] (Minecraft) 准备生成区域中：12%
-[15:28:56] [Render thread/INFO] (Minecraft) Time elapsed: 2894 ms
-[15:28:57] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[15:28:57] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[15:28:59] [Server thread/INFO] (Minecraft) Player435[local:E:034c2a08] logged in with entity id 223 at (362.19193239294543, -57.13512648890306, -250.02443659140707)
-[15:28:59] [Server thread/INFO] (Minecraft) Player435加入了游戏
-[15:29:00] [Render thread/INFO] (LoggedTimer) Starting JEI...
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering item subtypes...
-[15:29:00] [Render thread/INFO] (PluginCallerTimerRunnable) Registering item subtypes: jei:minecraft took 15.48 milliseconds
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering item subtypes took 16.50 ms
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering fluid subtypes...
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering fluid subtypes took 8.212 ms
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering ingredients...
-[15:29:00] [Render thread/INFO] (PluginCallerTimerRunnable) Registering ingredients: jei:minecraft took 106.7 milliseconds
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering ingredients took 107.6 ms
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering categories...
-[15:29:00] [Render thread/INFO] (PluginCallerTimerRunnable) Registering categories: jei:minecraft took 89.02 milliseconds
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering categories took 94.76 ms
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions...
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions took 11.10 ms
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering recipe catalysts...
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering recipe catalysts took 5.041 ms
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering advanced plugins...
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering advanced plugins took 570.4 μs
-[15:29:00] [Render thread/INFO] (LoggedTimer) Building recipe registry...
-[15:29:00] [Render thread/INFO] (LoggedTimer) Building recipe registry took 41.64 ms
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering recipes...
-[15:29:00] [Render thread/INFO] (PluginCallerTimerRunnable) Registering recipes: jei:minecraft took 324.9 milliseconds
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering recipes took 325.7 ms
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers...
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers took 10.72 ms
-[15:29:00] [Render thread/INFO] (LoggedTimer) Building runtime...
-[15:29:00] [Render thread/INFO] (PluginCaller) Registering gui handlers...
-[15:29:01] [Render thread/INFO] (PluginCallerTimerRunnable) Registering gui handlers: jei:minecraft took 31.65 milliseconds
-[15:29:01] [Render thread/INFO] (PluginCallerTimerRunnable) Registering gui handlers: jei:gui took 14.80 milliseconds
-[15:29:01] [Render thread/INFO] (PluginCaller) Registering gui handlers took 47.51 ms
-[15:29:01] [Render thread/INFO] (PluginCaller) Registering Runtime...
-[15:29:01] [Render thread/INFO] (JeiGuiStarter) Starting JEI GUI
-[15:29:01] [Render thread/INFO] (LoggedTimer) Building ingredient list...
-[15:29:01] [Render thread/INFO] (LoggedTimer) Building ingredient list took 6.070 ms
-[15:29:01] [Render thread/INFO] (LoggedTimer) Building ingredient filter...
-[15:29:01] [Render thread/INFO] (IngredientFilter) Adding 1384 ingredients
-[15:29:01] [Render thread/INFO] (IngredientFilter) Added 1384 ingredients
-[15:29:01] [Render thread/INFO] (LoggedTimer) Building ingredient filter took 285.0 ms
-[15:29:01] [Render thread/INFO] (PluginCallerTimerRunnable) Registering Runtime: jei:fabric_gui took 424.5 milliseconds
-[15:29:01] [Render thread/INFO] (PluginCaller) Registering Runtime took 425.2 ms
-[15:29:01] [Render thread/INFO] (LoggedTimer) Building runtime took 515.4 ms
-[15:29:01] [Render thread/INFO] (PluginCaller) Sending Runtime...
-[15:29:01] [Render thread/INFO] (PluginCaller) Sending Runtime took 473.9 μs
-[15:29:01] [Render thread/INFO] (LoggedTimer) Starting JEI took 1.342 s
-[15:29:01] [Render thread/INFO] (Minecraft) Loaded 3 advancements
-[15:29:03] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[15:29:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新世界]'/minecraft:overworld
-[15:29:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新世界]'/afeibailismod:extreme_cold
-[15:29:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新世界]'/afeibailismod:eternal_night
-[15:29:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新世界]'/minecraft:the_end
-[15:29:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新世界]'/minecraft:the_nether
-[15:29:08] [Render thread/INFO] (Minecraft) Using default channel type
-[15:29:08] [Render thread/INFO] (Minecraft) Started serving on 25565
-[15:29:08] [Render thread/INFO] (Minecraft) [System] [CHAT] 本地游戏已在端口[25565]上开启
-[15:31:30] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为生存模式]
-[15:31:30] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为生存模式
-[15:31:30] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为创造模式]
-[15:31:30] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为创造模式
-[15:31:56] [Server thread/INFO] (Minecraft) [Player435: 已将62个[臭猫]给予Player435]
-[15:31:56] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将62个[臭猫]给予Player435
-[15:31:57] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为生存模式]
-[15:31:57] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为生存模式
-[15:31:59] [Render thread/INFO] (Minecraft) Loaded 20 advancements
-[15:32:08] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为创造模式]
-[15:32:08] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为创造模式
-[15:32:13] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为生存模式]
-[15:32:13] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为生存模式
-[15:32:15] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为创造模式]
-[15:32:15] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为创造模式
-[15:32:29] [Render thread/INFO] (Minecraft) [System] [CHAT] 成功设置：summon minecraft:zombie ~ ~-3 ~
-[15:32:50] [Render thread/INFO] (Minecraft) Loaded 21 advancements
-[15:33:00] [Render thread/INFO] (Minecraft) Loaded 29 advancements
-[15:33:17] [Render thread/INFO] (Minecraft) Loaded 46 advancements
-[15:33:37] [User Authenticator #1/WARN] (Minecraft) Failed to verify username but will let them in anyway!
-[15:33:37] [Server thread/INFO] (Minecraft) X-huanxiong[/127.0.0.1:2549] logged in with entity id 27349 at (376.5, -60.0, -244.5)
-[15:33:37] [Server thread/INFO] (Minecraft) X-huanxiong加入了游戏
-[15:33:37] [Render thread/INFO] (Minecraft) [System] [CHAT] X-huanxiong加入了游戏
-[15:34:18] [Server thread/INFO] (Minecraft) X-huanxiong取得了进度[怪物猎人]
-[15:34:18] [Render thread/INFO] (Minecraft) [System] [CHAT] X-huanxiong取得了进度[怪物猎人]
-[15:34:28] [Server thread/INFO] (Minecraft) Player435取得了进度[怪物猎人]
-[15:34:28] [Render thread/INFO] (Minecraft) [System] [CHAT] Player435取得了进度[怪物猎人]
-[15:34:28] [Render thread/INFO] (Minecraft) Loaded 72 advancements
-[15:35:09] [Server thread/INFO] (Minecraft) X-huanxiong取得了进度[来硬的]
-[15:35:09] [Render thread/INFO] (Minecraft) [System] [CHAT] X-huanxiong取得了进度[来硬的]
-[15:35:52] [Render thread/INFO] (Minecraft) [System] [CHAT] 成功设置：tp @e[type=minecraft:item] ~ ~-80 ~
-[15:36:11] [Render thread/INFO] (Minecraft) Loaded 73 advancements
-[15:36:12] [Server thread/INFO] (Minecraft) Player435取得了进度[眼前一亮！]
-[15:36:12] [Render thread/INFO] (Minecraft) [System] [CHAT] Player435取得了进度[眼前一亮！]
-[15:36:12] [Render thread/INFO] (Minecraft) Loaded 73 advancements
-[15:39:01] [User Authenticator #2/WARN] (Minecraft) Failed to verify username but will let them in anyway!
-[15:39:01] [Server thread/INFO] (Minecraft) Miku--[/127.0.0.1:2606] logged in with entity id 69585 at (353.96003696597035, -60.0, -254.9072059802621)
-[15:39:01] [Server thread/INFO] (Minecraft) Miku--加入了游戏
-[15:39:01] [Render thread/INFO] (Minecraft) [System] [CHAT] Miku--加入了游戏
-[15:39:37] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 戺有横扫
-[15:39:37] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 戺有横扫
-[15:39:42] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 横扫不算
-[15:39:42] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 横扫不算
-[15:39:46] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 横扫不算击杀
-[15:39:46] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 横扫不算击杀
-[15:39:49] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> c
-[15:39:49] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> c
-[15:40:48] [Render thread/INFO] (Minecraft) Loaded 75 advancements
-[15:40:49] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 草我用的是昨天的mod
-[15:40:49] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 草我用的是昨天的mod
-[15:40:53] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> a?
-[15:40:53] [Render thread/INFO] (Minecraft) [CHAT] <Player435> a?
-[15:40:58] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 你能进来？
-[15:40:58] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 你能进来？
-[15:41:00] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> a>?
-[15:41:00] [Render thread/INFO] (Minecraft) [CHAT] <Player435> a>?
-[15:41:00] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> y
-[15:41:00] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> y
-[15:41:02] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> a?
-[15:41:02] [Render thread/INFO] (Minecraft) [CHAT] <Player435> a?
-[15:41:09] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 你有没有这个刀的描述
-[15:41:09] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 你有没有这个刀的描述
-[15:41:23] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 吸干他的血
-[15:41:23] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 吸干他的血
-[15:41:23] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 有没有这个刀的功能
-[15:41:23] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 有没有这个刀的功能
-[15:41:28] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> a?
-[15:41:28] [Render thread/INFO] (Minecraft) [CHAT] <Player435> a?
-[15:42:11] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 你开生存我看能不能吸血
-[15:42:11] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 你开生存我看能不能吸血
-[15:42:16] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为生存模式]
-[15:42:16] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为生存模式
-[15:42:17] [Server thread/INFO] (Minecraft) [Miku--: 已将自己的游戏模式设置为生存模式]
-[15:42:17] [Render thread/INFO] (Minecraft) [System] [CHAT] [Miku--: 已将自己的游戏模式设置为生存模式]
-[15:42:19] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为创造模式]
-[15:42:19] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为创造模式
-[15:42:23] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 你吸血
-[15:42:23] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 你吸血
-[15:42:27] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 你看看吸多少
-[15:42:27] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 你看看吸多少
-[15:42:28] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为生存模式]
-[15:42:28] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为生存模式
-[15:42:31] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为创造模式]
-[15:42:31] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为创造模式
-[15:42:34] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 打完
-[15:42:34] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 打完
-[15:42:34] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为生存模式]
-[15:42:34] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为生存模式
-[15:42:38] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 打完
-[15:42:38] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 打完
-[15:42:42] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 打我
-[15:42:42] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 打我
-[15:43:04] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 没吸血
-[15:43:04] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 没吸血
-[15:43:06] [Server thread/INFO] (Minecraft) [Miku--: 已将自己的游戏模式设置为创造模式]
-[15:43:06] [Render thread/INFO] (Minecraft) [System] [CHAT] [Miku--: 已将自己的游戏模式设置为创造模式]
-[15:43:25] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 那你杀100僵尸估计you 锋利
-[15:43:25] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 那你杀100僵尸估计you 锋利
-[15:43:28] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为创造模式]
-[15:43:28] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为创造模式
-[15:43:50] [Render thread/INFO] (Minecraft) Loaded 93 advancements
-[15:44:53] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 锋利
-[15:44:53] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 锋利
-[15:44:58] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 1
-[15:44:58] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 1
-[15:45:03] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> a
-[15:45:03] [Render thread/INFO] (Minecraft) [CHAT] <Player435> a
-[15:45:49] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 浣熊杀多少了
-[15:45:49] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 浣熊杀多少了
-[15:45:57] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 834
-[15:45:57] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 834
-[15:46:03] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 快了
-[15:46:03] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 快了
-[15:48:24] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 1178
-[15:48:24] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 1178
-[15:48:27] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> geiwo
-[15:48:27] [Render thread/INFO] (Minecraft) [CHAT] <Player435> geiwo
-[15:48:33] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> .
-[15:48:33] [Render thread/INFO] (Minecraft) [CHAT] <Player435> .
-[15:48:48] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> Q
-[15:48:48] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> Q
-[15:48:50] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 白打了
-[15:48:50] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 白打了
-[15:48:55] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> a
-[15:48:55] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> a
-[15:49:08] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> daone
-[15:49:08] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> daone
-[15:49:13] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 倒
-[15:49:13] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 倒
-[15:49:21] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> sm
-[15:49:21] [Render thread/INFO] (Minecraft) [CHAT] <Player435> sm
-[15:49:28] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 你扔到地上就没了
-[15:49:28] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 你扔到地上就没了
-[15:49:37] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 你从背包拿
-[15:49:37] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 你从背包拿
-[15:49:54] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 扔不是Q吗
-[15:49:54] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 扔不是Q吗
-[15:50:01] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 对
-[15:50:01] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 对
-[15:50:09] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 清理掉落物了
-[15:50:09] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 清理掉落物了
-[15:50:29] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为生存模式]
-[15:50:29] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为生存模式
-[15:50:35] [Server thread/INFO] (Minecraft) Player435被铁傀儡杀死了
-[15:50:35] [Render thread/INFO] (Minecraft) [System] [CHAT] Player435被铁傀儡杀死了
-[15:51:19] [Server thread/INFO] (Minecraft) Player435被Miku--杀死了
-[15:51:19] [Render thread/INFO] (Minecraft) [System] [CHAT] Player435被Miku--杀死了
-[15:51:23] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> a?
-[15:51:23] [Render thread/INFO] (Minecraft) [CHAT] <Player435> a?
-[15:51:26] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> a
-[15:51:26] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> a
-[15:51:32] [Server thread/INFO] (Minecraft) Player435被Miku--杀死了
-[15:51:32] [Render thread/INFO] (Minecraft) [System] [CHAT] Player435被Miku--杀死了
-[15:51:37] [Server thread/INFO] (Minecraft) [Miku--: 已将自己的游戏模式设置为生存模式]
-[15:51:37] [Render thread/INFO] (Minecraft) [System] [CHAT] [Miku--: 已将自己的游戏模式设置为生存模式]
-[15:51:47] [Server thread/INFO] (Minecraft) Player435被Miku--杀死了
-[15:51:47] [Render thread/INFO] (Minecraft) [System] [CHAT] Player435被Miku--杀死了
-[15:51:50] [Render thread/INFO] (Minecraft) Loaded 93 advancements
-[15:52:11] [Server thread/INFO] (Minecraft) Miku--被Player435杀死了
-[15:52:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Miku--被Player435杀死了
-[15:52:22] [Server thread/INFO] (Minecraft) Miku--被Player435杀死了
-[15:52:22] [Render thread/INFO] (Minecraft) [System] [CHAT] Miku--被Player435杀死了
-[15:52:29] [Server thread/INFO] (Minecraft) Player435被Miku--杀死了
-[15:52:29] [Render thread/INFO] (Minecraft) [System] [CHAT] Player435被Miku--杀死了
-[15:52:41] [Server thread/INFO] (Minecraft) Miku--被Player435杀死了
-[15:52:41] [Render thread/INFO] (Minecraft) [System] [CHAT] Miku--被Player435杀死了
-[15:52:47] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为创造模式]
-[15:52:47] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为创造模式
-[15:52:49] [Server thread/INFO] (Minecraft) [Miku--: 已将自己的游戏模式设置为创造模式]
-[15:52:49] [Render thread/INFO] (Minecraft) [System] [CHAT] [Miku--: 已将自己的游戏模式设置为创造模式]
-[15:54:36] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 123
-[15:54:36] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 123
-[15:54:44] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> sme
-[15:54:44] [Render thread/INFO] (Minecraft) [CHAT] <Player435> sme
-[15:55:00] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 大剑赏花有点搞
-[15:55:00] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 大剑赏花有点搞
-[15:55:06] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> sm
-[15:55:06] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> sm
-[15:55:11] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 伤害ia
-[15:55:11] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 伤害ia
-[15:55:18] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 降1.5
-[15:55:18] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 降1.5
-[15:55:33] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 奖3
-[15:55:33] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 奖3
-[15:55:42] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 原版怪血少
-[15:55:42] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 原版怪血少
-[15:55:45] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 不会按鼠标了
-[15:55:45] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 不会按鼠标了
-[15:55:49] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> a
-[15:55:49] [Render thread/INFO] (Minecraft) [CHAT] <Player435> a
-[15:55:54] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 989
-[15:55:54] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 989
-[15:56:00] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 多少了浣熊
-[15:56:00] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 多少了浣熊
-[15:56:09] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 989
-[15:56:09] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 989
-[15:56:11] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> aaaa
-[15:56:11] [Render thread/INFO] (Minecraft) [CHAT] <Player435> aaaa
-[15:56:18] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 1011
-[15:56:18] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 1011
-[15:56:35] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为生存模式]
-[15:56:35] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为生存模式
-[15:56:39] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为创造模式]
-[15:56:39] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为创造模式
-[15:56:41] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> zen me gei ni
-[15:56:41] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> zen me gei ni
-[15:56:44] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> q
-[15:56:44] [Render thread/INFO] (Minecraft) [CHAT] <Player435> q
-[15:56:52] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为生存模式]
-[15:56:52] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为生存模式
-[15:56:53] [Server thread/INFO] (Minecraft) [Player435: 已将自己的游戏模式设置为创造模式]
-[15:56:53] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为创造模式
-[15:57:26] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> zml
-[15:57:26] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> zml
-[15:57:46] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 我看看1100还是不是锋利X
-[15:57:46] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 我看看1100还是不是锋利X
-[15:58:02] [Server thread/INFO] (Minecraft) Player435取得了进度[来硬的]
-[15:58:02] [Render thread/INFO] (Minecraft) [System] [CHAT] Player435取得了进度[来硬的]
-[15:58:02] [Render thread/INFO] (Minecraft) Loaded 127 advancements
-[15:58:20] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 对10
-[15:58:20] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 对10
-[15:58:34] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 翻页
-[15:58:34] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 翻页
-[15:58:39] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 看群 浣熊
-[15:58:39] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 看群 浣熊
-[15:58:55] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> zml
-[15:58:55] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> zml
-[15:59:06] [Render thread/INFO] (Minecraft) Loaded 129 advancements
-[15:59:08] [Render thread/INFO] (Minecraft) Loaded 131 advancements
-[15:59:31] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 你右键土地
-[15:59:31] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 你右键土地
-[15:59:40] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 还以为镰刀
-[15:59:40] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 还以为镰刀
-[15:59:56] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 继承的锄头的类
-[15:59:56] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 继承的锄头的类
-[16:00:30] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> a
-[16:00:30] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> a
-[16:00:36] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 盖房子
-[16:00:36] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 盖房子
-[16:00:51] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 用这改也太富裕了
-[16:00:51] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 用这改也太富裕了
-[16:00:55] [Render thread/INFO] (Minecraft) Loaded 132 advancements
-[16:01:01] [Render thread/INFO] (Minecraft) Loaded 133 advancements
-[16:01:05] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 不会画像素只会渐变了
-[16:01:05] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 不会画像素只会渐变了
-[16:01:18] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 盖什么
-[16:01:18] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 盖什么
-[16:01:23] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 看你了
-[16:01:23] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 看你了
-[16:01:29] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> zhe
-[16:01:29] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> zhe
-[16:01:44] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 你mod没什么要求吗
-[16:01:44] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 你mod没什么要求吗
-[16:01:50] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 你给个风格
-[16:01:50] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 你给个风格
-[16:01:51] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 先增加东西
-[16:01:51] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 先增加东西
-[16:02:04] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 别用富裕的盖呀
-[16:02:04] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 别用富裕的盖呀
-[16:02:09] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> a
-[16:02:09] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> a
-[16:02:13] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 你先玩
-[16:02:13] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 你先玩
-[16:02:16] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 我就看看
-[16:02:16] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 我就看看
-[16:02:17] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 今天补钙
-[16:02:17] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 今天补钙
-[16:04:01] [Render thread/INFO] (Minecraft) Loaded 145 advancements
-[16:04:03] [Render thread/INFO] (Minecraft) Loaded 146 advancements
-[16:04:40] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 芝士什么
-[16:04:40] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 芝士什么
-[16:04:49] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 半成品 永夜维度
-[16:04:49] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 半成品 永夜维度
-[16:05:36] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 玄蓝草方块
-[16:05:36] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 玄蓝草方块
-[16:05:42] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 群系还不会
-[16:05:42] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 群系还不会
-[16:05:59] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 想做点新建筑方块
-[16:05:59] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 想做点新建筑方块
-[16:06:12] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 你这蓝树是一刷刷一片吗
-[16:06:12] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 你这蓝树是一刷刷一片吗
-[16:06:17] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 一小片
-[16:06:17] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 一小片
-[16:06:28] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 固定群系刷
-[16:06:28] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 固定群系刷
-[16:06:53] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 那是不是可以画蓝石头
-[16:06:53] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 那是不是可以画蓝石头
-[16:06:55] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 紫宝石粉 合成紫色宝石粉
-[16:06:55] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 紫宝石粉 合成紫色宝石粉
-[16:07:03] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 写错了
-[16:07:03] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 写错了
-[16:07:46] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 你这地形挺好
-[16:07:46] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 你这地形挺好
-[16:07:51] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 怎么服务器没有
-[16:07:51] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 怎么服务器没有
-[16:08:05] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 地形是原版的
-[16:08:05] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 地形是原版的
-[16:08:11] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 原版的巨大化
-[16:08:11] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 原版的巨大化
-[16:08:18] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 噪声还不会写
-[16:08:18] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 噪声还不会写
-[16:08:23] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> zaosheng
-[16:08:23] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> zaosheng
-[16:08:25] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> ssm
-[16:08:25] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> ssm
-[16:08:26] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 控制地形的噪声
-[16:08:26] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 控制地形的噪声
-[16:09:01] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 沙漠长出一颗大型丛林树
-[16:09:01] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 沙漠长出一颗大型丛林树
-[16:09:12] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 巨大化搞得
-[16:09:12] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 巨大化搞得
-[16:09:37] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 这刀订满才11.5
-[16:09:37] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 这刀订满才11.5
-[16:09:44] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> qun
-[16:09:44] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> qun
-[16:09:58] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 11451
-[16:09:58] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 11451
-[16:10:30] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 是不是可以画蓝石头
-[16:10:30] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 是不是可以画蓝石头
-[16:10:53] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 可以
-[16:10:53] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 可以
-[16:10:58] [Render thread/INFO] (Minecraft) Loaded 146 advancements
-[16:12:07] [Render thread/WARN] (Minecraft) Received passengers for unknown entity
-[16:12:18] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 迷路了
-[16:12:18] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 迷路了
-[16:12:26] [Server thread/INFO] (Minecraft) [Player435: 已将X-huanxiong传送至Player435]
-[16:12:26] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将X-huanxiong传送至Player435
-[16:13:07] [Render thread/INFO] (Minecraft) Loaded 148 advancements
-[16:13:08] [Render thread/INFO] (Minecraft) Loaded 161 advancements
-[16:13:12] [Render thread/INFO] (Minecraft) Loaded 163 advancements
-[16:13:14] [Render thread/INFO] (Minecraft) Loaded 167 advancements
-[16:13:18] [Render thread/INFO] (Minecraft) Loaded 174 advancements
-[16:13:21] [Render thread/INFO] (Minecraft) Loaded 177 advancements
-[16:13:23] [Render thread/INFO] (Minecraft) Loaded 179 advancements
-[16:13:29] [Render thread/INFO] (Minecraft) Loaded 181 advancements
-[16:13:42] [Render thread/INFO] (Minecraft) Loaded 184 advancements
-[16:13:48] [Render thread/INFO] (Minecraft) Loaded 188 advancements
-[16:14:19] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 抗炸我记得设置的
-[16:14:19] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 抗炸我记得设置的
-[16:14:33] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 抗炸我记得设置的4
-[16:14:33] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 抗炸我记得设置的4
-[16:14:43] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> s
-[16:14:43] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> s
-[16:15:14] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 1
-[16:15:14] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 1
-[16:15:19] [Server thread/INFO] (Minecraft) [Not Secure] <X-huanxiong> 1
-[16:15:19] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <X-huanxiong> 1
-[16:15:20] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 你看看石头
-[16:15:20] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 你看看石头
-[16:15:26] [Render thread/INFO] (Minecraft) Loaded 202 advancements
-[16:15:26] [Server thread/INFO] (Minecraft) Player435取得了进度[石器时代]
-[16:15:26] [Render thread/INFO] (Minecraft) [System] [CHAT] Player435取得了进度[石器时代]
-[16:15:26] [Render thread/INFO] (Minecraft) Loaded 216 advancements
-[16:16:33] [Server thread/INFO] (Minecraft) X-huanxiong取得了进度[石器时代]
-[16:16:33] [Render thread/INFO] (Minecraft) [System] [CHAT] X-huanxiong取得了进度[石器时代]
-[16:17:09] [Render thread/INFO] (Minecraft) Loaded 218 advancements
-[16:17:47] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 两个模组能合并吗
-[16:17:47] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 两个模组能合并吗
-[16:17:52] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 什么意思
-[16:17:52] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 什么意思
-[16:18:08] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 比如说我做了个生物群系
-[16:18:08] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 比如说我做了个生物群系
-[16:18:16] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 是个mod
-[16:18:16] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 是个mod
-[16:18:20] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 能加进来吗
-[16:18:20] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 能加进来吗
-[16:18:34] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 合并一个mod还是
-[16:18:34] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 合并一个mod还是
-[16:18:53] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 两个mod合并
-[16:18:53] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 两个mod合并
-[16:18:55] [Server thread/INFO] (Minecraft) Miku--取得了进度[石器时代]
-[16:18:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Miku--取得了进度[石器时代]
-[16:19:07] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 有点麻烦
-[16:19:07] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 有点麻烦
-[16:19:24] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 你idea开发可以
-[16:19:24] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 你idea开发可以
-[16:19:32] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> idea开发是什么
-[16:19:32] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> idea开发是什么
-[16:19:36] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 做坐骑吗
-[16:19:36] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 做坐骑吗
-[16:19:41] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 制作器
-[16:19:41] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 制作器
-[16:19:55] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> idea编程Java
-[16:19:55] [Render thread/INFO] (Minecraft) [CHAT] <Player435> idea编程Java
-[16:19:58] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> idea编程Java的
-[16:19:58] [Render thread/INFO] (Minecraft) [CHAT] <Player435> idea编程Java的
-[16:19:59] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> a
-[16:19:59] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> a
-[16:20:11] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 1全世界最好的Java工具
-[16:20:11] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 1全世界最好的Java工具
-[16:20:30] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> a
-[16:20:30] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> a
-[16:21:05] [Server thread/INFO] (Minecraft) X-huanxiong取得了进度[热腾腾的]
-[16:21:05] [Render thread/INFO] (Minecraft) [System] [CHAT] X-huanxiong取得了进度[热腾腾的]
-[16:21:48] [Server thread/INFO] (Minecraft) Miku--取得了进度[热腾腾的]
-[16:21:48] [Render thread/INFO] (Minecraft) [System] [CHAT] Miku--取得了进度[热腾腾的]
-[16:22:04] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> kkk
-[16:22:04] [Render thread/INFO] (Minecraft) [CHAT] <Player435> kkk
-[16:22:31] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 帮我找bug
-[16:22:31] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 帮我找bug
-[16:22:34] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> sm
-[16:22:34] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> sm
-[16:22:45] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> mod 里面的bug
-[16:22:45] [Render thread/INFO] (Minecraft) [CHAT] <Player435> mod 里面的bug
-[16:23:06] [Render thread/INFO] (Minecraft) Loaded 220 advancements
-[16:23:06] [Render thread/INFO] (Minecraft) Loaded 223 advancements
-[16:23:22] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 这个刀刃我想重绘一下
-[16:23:22] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 这个刀刃我想重绘一下
-[16:23:58] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 难
-[16:23:58] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 难
-[16:24:26] [Render thread/INFO] (Minecraft) Loaded 224 advancements
-[16:24:35] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 里面塞了两个长方体
-[16:24:35] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 里面塞了两个长方体
-[16:24:46] [Render thread/INFO] (Minecraft) Loaded 226 advancements
-[16:25:43] [Server thread/INFO] (Minecraft) [Not Secure] <Player435> 我改单
-[16:25:43] [Render thread/INFO] (Minecraft) [CHAT] <Player435> 我改单
-[16:28:50] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> a
-[16:28:50] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> a
-[16:31:09] [Server thread/INFO] (Minecraft) X-huanxiong取得了进度[甜蜜的梦]
-[16:31:09] [Render thread/INFO] (Minecraft) [System] [CHAT] X-huanxiong取得了进度[甜蜜的梦]
-[16:31:27] [Server thread/INFO] (Minecraft) Miku--取得了进度[甜蜜的梦]
-[16:31:27] [Render thread/INFO] (Minecraft) [System] [CHAT] Miku--取得了进度[甜蜜的梦]
-[16:43:58] [Server thread/INFO] (Minecraft) X-huanxiong lost connection: 连接中断
-[16:43:58] [Server thread/INFO] (Minecraft) X-huanxiong退出了游戏
-[16:43:58] [Render thread/INFO] (Minecraft) [System] [CHAT] X-huanxiong退出了游戏
-[16:46:12] [Render thread/INFO] (Minecraft) Loaded 227 advancements
-[16:50:34] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 12
-[16:50:34] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 12
-[16:51:08] [Server thread/INFO] (Minecraft) Miku--取得了进度[瞄准目标]
-[16:51:08] [Render thread/INFO] (Minecraft) [System] [CHAT] Miku--取得了进度[瞄准目标]
-[16:53:35] [Server thread/INFO] (Minecraft) [Not Secure] <Miku--> 123123123123123123123123123123123123312123123123123123123123123123123123123123123123123123123123123123123123
-[16:53:35] [Render thread/INFO] (Minecraft) [Not Secure] [CHAT] <Miku--> 123123123123123123123123123123123123312123123123123123123123123123123123123123123123123123123123123123123123
+[20:41:39] [Render thread/INFO] (Minecraft) Setting user: Player447
+[20:41:40] [Render thread/INFO] (PluginCaller) Sending ConfigManager...
+[20:41:40] [Render thread/INFO] (PluginCaller) Sending ConfigManager took 5.211 ms
+[20:41:40] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[20:41:41] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[20:41:43] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-item-group-api-v1, cloth-config, fabric-renderer-api-v1, fabric-networking-api-v1, fabric-entity-events-v1, fabric-key-binding-api-v1, fabric-client-tags-api-v1, fabric-api-base, fabric-recipe-api-v1, fabric-command-api-v2, fabric-api-lookup-api-v1, disable_custom_worlds_advice, fabric-message-api-v1, fabric-transfer-api-v1, fabric-events-interaction-v0, fabric-convention-tags-v1, fabric-api, fabric-biome-api-v1, fabric-registry-sync-v0, fabric-game-rule-api-v1, fabric-screen-handler-api-v1, fabric-mining-level-api-v1, fabric-data-generation-api-v1, fabric-lifecycle-events-v1, fabric-crash-report-info-v1, fabric-screen-api-v1, fabric-blockrenderlayer-v1, fabricloader, fabric-particles-v1, fabric-object-builder-api-v1, fabric-rendering-data-attachment-v1, jei, fabric-model-loading-api-v1, fabric-gametest-api-v1, afeibailismod, fabric-rendering-fluids-v1, fabric-dimensions-v1, fabric-item-api-v1, fabric-renderer-indigo, fabric-resource-loader-v0, fabric-loot-api-v2, fabric-content-registries-v0, appleskin, fabric-sound-api-v1, fabric-resource-conditions-api-v1, fabric-rendering-v1, customportalapi, fabric-transitive-access-wideners-v1, fabric-block-api-v1)
+[20:41:43] [Worker-Main-11/ERROR] (ModNioResourcePack) Invalid path in mod resource-pack afeibailismod: afeibailismod:textures/item/下届合金 红宝石 打火石.png, ignoring
+[20:41:43] [Worker-Main-1/WARN] (Minecraft) Texture afeibailismod:item/smelly_cat with size 30x30 limits mip level from 4 to 1
+[20:41:43] [Worker-Main-1/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
+[20:41:44] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brushing
+[20:41:44] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brush_sand_completed
+[20:41:44] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[20:41:44] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20:41:44] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:music.overworld.cherry_grove
+[20:41:45] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[20:41:45] [Render thread/INFO] (Minecraft) Sound engine started
+[20:41:45] [Render thread/INFO] (Minecraft) Created: 1024x1024x1 minecraft:textures/atlas/blocks.png-atlas
+[20:41:45] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[20:41:45] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:41:45] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:41:45] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20:41:45] [Render thread/INFO] (Minecraft) Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20:41:45] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20:41:45] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:41:45] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20:41:46] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20:41:46] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:41:46] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:41:46] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20:41:46] [Render thread/INFO] (Minecraft) Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[20:41:54] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[20:41:55] [Render thread/INFO] (Minecraft) Loaded 1225 advancements
+[20:41:55] [Render thread/INFO] (ClientLifecycleHandler) Stopping JEI
+[20:41:55] [Render thread/INFO] (JeiStarter) Stopping JEI
+[20:41:55] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable...
+[20:41:55] [Render thread/INFO] (FabricGuiPlugin) Stopping JEI GUI
+[20:41:55] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable took 467.3 μs
+[20:41:55] [Render thread/INFO] (BiomeModificationImpl) Applied 107 biome modifications to 52 of 63 new biomes in 28.62 ms
+[20:41:55] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.4
+[20:41:55] [Server thread/INFO] (Minecraft) Generating keypair
+[20:41:57] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[20:42:00] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[20:42:00] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[20:42:00] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[20:42:00] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[20:42:00] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[20:42:00] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[20:42:00] [Render thread/INFO] (Minecraft) 准备生成区域中：9%
+[20:42:00] [Render thread/INFO] (Minecraft) Time elapsed: 3485 ms
+[20:42:01] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[20:42:01] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[20:42:03] [Server thread/INFO] (Minecraft) Player447[local:E:3feaeeb7] logged in with entity id 175 at (68.19592243639052, 73.00026162057584, -91.39421507452154)
+[20:42:03] [Server thread/INFO] (Minecraft) Player447加入了游戏
+[20:42:03] [Server thread/INFO] (Minecraft) Player447取得了进度[来硬的]
+[20:42:03] [Render thread/INFO] (LoggedTimer) Starting JEI...
+[20:42:03] [Render thread/INFO] (PluginCaller) Registering item subtypes...
+[20:42:03] [Render thread/INFO] (PluginCaller) Registering item subtypes took 8.425 ms
+[20:42:03] [Render thread/INFO] (PluginCaller) Registering fluid subtypes...
+[20:42:03] [Render thread/INFO] (PluginCaller) Registering fluid subtypes took 5.358 ms
+[20:42:03] [Render thread/INFO] (PluginCaller) Registering ingredients...
+[20:42:03] [Render thread/INFO] (PluginCallerTimerRunnable) Registering ingredients: jei:minecraft took 110.7 milliseconds
+[20:42:03] [Render thread/INFO] (PluginCaller) Registering ingredients took 111.5 ms
+[20:42:03] [Render thread/INFO] (PluginCaller) Registering categories...
+[20:42:04] [Render thread/INFO] (PluginCallerTimerRunnable) Registering categories: jei:minecraft took 98.06 milliseconds
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering categories took 104.4 ms
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions...
+[20:42:04] [Render thread/INFO] (PluginCallerTimerRunnable) Registering vanilla category extensions: jei:minecraft took 11.01 milliseconds
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions took 11.76 ms
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering recipe catalysts...
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering recipe catalysts took 5.021 ms
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering advanced plugins...
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering advanced plugins took 634.5 μs
+[20:42:04] [Render thread/INFO] (LoggedTimer) Building recipe registry...
+[20:42:04] [Render thread/INFO] (LoggedTimer) Building recipe registry took 43.06 ms
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering recipes...
+[20:42:04] [Render thread/INFO] (PluginCallerTimerRunnable) Registering recipes: jei:minecraft took 399.8 milliseconds
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering recipes took 400.6 ms
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers...
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers took 10.16 ms
+[20:42:04] [Render thread/INFO] (LoggedTimer) Building runtime...
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering gui handlers...
+[20:42:04] [Render thread/INFO] (PluginCallerTimerRunnable) Registering gui handlers: jei:minecraft took 33.72 milliseconds
+[20:42:04] [Render thread/INFO] (PluginCallerTimerRunnable) Registering gui handlers: jei:gui took 24.36 milliseconds
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering gui handlers took 59.32 ms
+[20:42:04] [Render thread/INFO] (PluginCaller) Registering Runtime...
+[20:42:04] [Render thread/INFO] (JeiGuiStarter) Starting JEI GUI
+[20:42:04] [Render thread/INFO] (LoggedTimer) Building ingredient list...
+[20:42:04] [Render thread/INFO] (LoggedTimer) Building ingredient list took 10.39 ms
+[20:42:04] [Render thread/INFO] (LoggedTimer) Building ingredient filter...
+[20:42:04] [Render thread/INFO] (IngredientFilter) Adding 1386 ingredients
+[20:42:05] [Render thread/INFO] (IngredientFilter) Added 1386 ingredients
+[20:42:05] [Render thread/INFO] (LoggedTimer) Building ingredient filter took 398.8 ms
+[20:42:05] [Render thread/INFO] (PluginCallerTimerRunnable) Registering Runtime: jei:fabric_gui took 537.8 milliseconds
+[20:42:05] [Render thread/INFO] (PluginCaller) Registering Runtime took 538.6 ms
+[20:42:05] [Render thread/INFO] (LoggedTimer) Building runtime took 644.7 ms
+[20:42:05] [Render thread/INFO] (PluginCaller) Sending Runtime...
+[20:42:05] [Render thread/INFO] (PluginCaller) Sending Runtime took 322.9 μs
+[20:42:05] [Render thread/INFO] (LoggedTimer) Starting JEI took 1.554 s
+[20:42:05] [Render thread/INFO] (Minecraft) [System] [CHAT] Player447取得了进度[来硬的]
+[20:42:05] [Render thread/INFO] (Minecraft) Loaded 55 advancements
+[20:42:16] [Worker-Main-15/WARN] (Minecraft) Couldn't look up profile properties for com.mojang.authlib.GameProfile@4119fa1e[id=83a58a2f-438a-3130-bffe-4ef9d05cc839,name=Player447,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:134) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:106) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:185) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:52) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:49) ~[authlib-3.18.38.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3533) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2282) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2159) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2049) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3966) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3989) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4950) ~[guava-31.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4956) ~[guava-31.1-jre.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:160) ~[authlib-3.18.38.jar:?]
+	at net.minecraft.client.MinecraftClient.getSessionProperties(MinecraftClient.java:2507) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.texture.PlayerSkinProvider.method_4653(PlayerSkinProvider.java:107) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.net.UnknownHostException: sessionserver.mojang.com
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:534) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:639) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1287) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:111) ~[authlib-3.18.38.jar:?]
+	... 21 more
+[20:42:29] [Server thread/INFO] (Minecraft) Player447取得了进度[瞄准目标]
+[20:42:29] [Render thread/INFO] (Minecraft) [System] [CHAT] Player447取得了进度[瞄准目标]
+[20:42:29] [Render thread/INFO] (Minecraft) Loaded 60 advancements
+[20:42:52] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[20:42:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[20:42:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/afeibailismod:eternal_night
+[20:42:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[20:42:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[20:42:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/afeibailismod:extreme_cold

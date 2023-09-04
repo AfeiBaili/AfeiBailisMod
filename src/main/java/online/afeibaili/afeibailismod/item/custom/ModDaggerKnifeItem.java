@@ -58,7 +58,11 @@ public class ModDaggerKnifeItem extends SwordItem {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         NbtCompound tag = stack.getOrCreateNbt();
         int jiSha = tag.getInt(FENGLI);
-        tooltip.add(Text.literal("完美锋利！"+"已击杀"+jiSha+"个亡灵").formatted(Formatting.YELLOW));
+        if (jiSha==0){
+            tooltip.add(Text.literal("击杀亡灵来强化你的武器").formatted(Formatting.YELLOW));
+        }else {
+            tooltip.add(Text.literal("锋利！"+"已击杀"+jiSha+"个亡灵").formatted(Formatting.YELLOW));
+        }
     }
     private int getFengLi (ItemStack stack){
         NbtCompound tag = stack.getOrCreateNbt();
